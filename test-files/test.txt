@@ -1,0 +1,2 @@
+Toto je obyčejný TXT soubor pro testování.
+Obsahuje pouze text.
