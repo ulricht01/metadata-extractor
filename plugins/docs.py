@@ -11,7 +11,10 @@ def extract_meta(file_path):
     def format_date(value):
         if isinstance(value, datetime.datetime):
             return value.strftime("%d.%m.%Y %H:%M:%S")
+        elif isinstance(value, (int, float)):
+            return datetime.datetime.fromtimestamp(value).strftime("%d.%m.%Y %H:%M:%S")
         return None
+
 
     extension = os.path.splitext(file_path)[1].lower()
     metadata = {}
@@ -91,6 +94,17 @@ def extract_meta(file_path):
             }
         else:
             return None
+    
+    elif extension == ".txt":
+        with open(file_path, "r") as file:
+            file_metadata = os.stat(file_path)
+            for attr in dir(file_metadata):
+                metadata = {
+                    "filesizeBytes": file_metadata.st_size, # Velikost souboru
+                    "lastChangeDate": format_date(file_metadata.st_mtime), # Čas poslední změny souboru
+                    "lastMetadataChange": format_date(file_metadata.st_ctime), # Čas poslední změny metadat souboru
+                    "birthDate": format_date(file_metadata.st_birthtime), # Čas vytvoření souboru
+                }
     return metadata
 
 # Test DOCX
@@ -106,6 +120,12 @@ def extract_meta(file_path):
 #print(x)
 
 # Test RTF
-x = extract_meta("test-files/test.rtf")
+#x = extract_meta("test-files/test.rtf")
+
+#print(x)
+
+
+# Test TXT
+x = extract_meta("test-files/test.txt")
 
 print(x)
