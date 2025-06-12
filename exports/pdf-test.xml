@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\pdf-test.pdf">
+    <author>
+      <item>T</item>
+      <item>o</item>
+      <item>m</item>
+      <item>á</item>
+      <item>š</item>
+      <item> </item>
+      <item>U</item>
+      <item>l</item>
+      <item>r</item>
+      <item>i</item>
+      <item>c</item>
+      <item>h</item>
+    </author>
+    <author_raw>
+      <item>T</item>
+      <item>o</item>
+      <item>m</item>
+      <item>á</item>
+      <item>š</item>
+      <item> </item>
+      <item>U</item>
+      <item>l</item>
+      <item>r</item>
+      <item>i</item>
+      <item>c</item>
+      <item>h</item>
+    </author_raw>
+    <creation_date>17.05.2025 23:21:13</creation_date>
+    <creation_date_raw>
+      <item>D</item>
+      <item>:</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>5</item>
+      <item>0</item>
+      <item>5</item>
+      <item>1</item>
+      <item>7</item>
+      <item>2</item>
+      <item>3</item>
+      <item>2</item>
+      <item>1</item>
+      <item>1</item>
+      <item>3</item>
+      <item>+</item>
+      <item>0</item>
+      <item>2</item>
+      <item>'</item>
+      <item>0</item>
+      <item>0</item>
+      <item>'</item>
+    </creation_date_raw>
+    <creator>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </creator>
+    <creator_raw>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </creator_raw>
+    <modification_date>17.05.2025 23:21:13</modification_date>
+    <modification_date_raw>
+      <item>D</item>
+      <item>:</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>5</item>
+      <item>0</item>
+      <item>5</item>
+      <item>1</item>
+      <item>7</item>
+      <item>2</item>
+      <item>3</item>
+      <item>2</item>
+      <item>1</item>
+      <item>1</item>
+      <item>3</item>
+      <item>+</item>
+      <item>0</item>
+      <item>2</item>
+      <item>'</item>
+      <item>0</item>
+      <item>0</item>
+      <item>'</item>
+    </modification_date_raw>
+    <producer>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </producer>
+    <producer_raw>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </producer_raw>
+    <subject/>
+    <subject_raw/>
+    <title>
+      <item>T</item>
+      <item>e</item>
+      <item>s</item>
+      <item>t</item>
+      <item>o</item>
+      <item>v</item>
+      <item>a</item>
+      <item>c</item>
+      <item>í</item>
+      <item> </item>
+      <item>s</item>
+      <item>o</item>
+      <item>u</item>
+      <item>b</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>W</item>
+      <item>O</item>
+      <item>R</item>
+      <item>D</item>
+    </title>
+    <title_raw>
+      <item>T</item>
+      <item>e</item>
+      <item>s</item>
+      <item>t</item>
+      <item>o</item>
+      <item>v</item>
+      <item>a</item>
+      <item>c</item>
+      <item>í</item>
+      <item> </item>
+      <item>s</item>
+      <item>o</item>
+      <item>u</item>
+      <item>b</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>W</item>
+      <item>O</item>
+      <item>R</item>
+      <item>D</item>
+    </title_raw>
+    <METADATA/>
+  </FILE>
+</DIR>

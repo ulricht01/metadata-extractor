@@ -6,6 +6,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import plugins
 import pkgutil
 import importlib
+from dicttoxml import dicttoxml
+from xml.dom.minidom import parseString
+import xml.etree.ElementTree as ET
+import io
 
 from plugins.base_extractor import BaseExtractor
 
@@ -36,19 +40,76 @@ def extract_metadata(file_path):
         return metadata
     except Exception as e:
         return {}
+    
+def convert_to_xml(filename, metadata, export_path):
+    # Ujisti se, že metadata je slovník s popisnými klíči
+    xml_bytes = dicttoxml(metadata, custom_root="FILE", attr_type=False)
+    data_element = ET.fromstring(xml_bytes.decode("utf-8"))
+    
+    data_element.set("path", str(os.path.abspath(filename)))
 
+    dir_element = ET.Element("DIR", attrib={"path": str(os.path.abspath(""))})
+    dir_element.append(data_element)
+    
+    metadata_element = ET.Element("METADATA")
+    data_element.append(metadata_element)
+
+    tree = ET.ElementTree(dir_element)
+
+    f = io.BytesIO()
+    tree.write(f, encoding='utf-8', xml_declaration=True)
+
+    xml_pretty = parseString(f.getvalue()).toprettyxml(indent="  ")
+
+    output_file = os.path.join(export_path, f"{os.path.splitext(os.path.basename(filename))[0]}.xml")
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(xml_pretty)
+
+    print(f"XML bylo uloženo do souboru: {output_file}")
+    
+def join_xml_files(export_path, output_file):
+    dir_map = {}
+
+    for root, _, files in os.walk(export_path):
+        for file in files:
+            if file.endswith('.xml'):
+                file_path = os.path.join(root, file)
+                tree = ET.parse(file_path)
+                root_elem = tree.getroot() 
+                dir_path = root_elem.attrib.get('path')
+                
+                if dir_path not in dir_map:
+                    new_dir_elem = ET.Element('DIR', {'path': dir_path})
+                    dir_map[dir_path] = new_dir_elem
+
+                for file_elem in root_elem.findall('FILE'):
+                    dir_map[dir_path].append(file_elem)
+
+    combined_root = ET.Element('DIRS')
+
+    for dir_elem in dir_map.values():
+        combined_root.append(dir_elem)
+
+
+    combined_tree = ET.ElementTree(combined_root)
+    combined_tree.write(output_file, encoding='utf-8', xml_declaration=True)
+
+    
 if __name__ == "__main__":
     load_plugins()
 
     test_dir = "test-files"
     all_metadata = {}
 
-    for filename in os.listdir(test_dir):
-        file_path = os.path.join(test_dir, filename)
-        if os.path.isfile(file_path):
-            metadata = extract_metadata(file_path)
-            all_metadata[filename] = metadata
-
+    for root, dirs, files in os.walk(test_dir):
+        for file in files:
+            full_path = os.path.join(root, file)
+            metadata = extract_metadata(full_path)
+            all_metadata[full_path] = metadata
     for file, metadata in all_metadata.items():
         print(f"{file}:")
-        print(metadata)
+        convert_to_xml(file, metadata, "exports")
+        join_xml_files("exports", "G:/Programování/sipky/metadata-extractor/nested_exports/all_in_ones.xml")
+
+
+    

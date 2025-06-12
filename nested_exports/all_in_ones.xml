@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DIRS><DIR path="G:\Programování\sipky\metadata-extractor"><FILE path="G:\Programování\sipky\metadata-extractor\test-files\excel-test.xlsx">
+    <category />
+    <contentStatus />
+    <created>28.08.2007 12:06:36</created>
+    <creator>Mgr. Pavel Novák</creator>
+    <description />
+    <identifier />
+    <keywords />
+    <language />
+    <lastModifiedBy>Tomáš Ulrich</lastModifiedBy>
+    <lastPrinted />
+    <last_modified_by>Tomáš Ulrich</last_modified_by>
+    <modified>17.05.2025 22:08:43</modified>
+    <revision />
+    <subject />
+    <tagname>coreProperties</tagname>
+    <title />
+    <version />
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\mp3-test.mp3">
+    <Encoded_by>LAME in FL Studio 20</Encoded_by>
+    <key name="BPM (beats per minute)">120</key>
+    <Date>2018</Date>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\ogg-test-nested.ogg">
+    <date>2018</date>
+    <key name="bpm (beats per minute)">120</key>
+    <encoded_by>LAME in FL Studio 20</encoded_by>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\ogg-test.ogg">
+    <date>2018</date>
+    <key name="bpm (beats per minute)">120</key>
+    <encoded_by>LAME in FL Studio 20</encoded_by>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\pdf-test.pdf">
+    <author>
+      <item>T</item>
+      <item>o</item>
+      <item>m</item>
+      <item>á</item>
+      <item>š</item>
+      <item> </item>
+      <item>U</item>
+      <item>l</item>
+      <item>r</item>
+      <item>i</item>
+      <item>c</item>
+      <item>h</item>
+    </author>
+    <author_raw>
+      <item>T</item>
+      <item>o</item>
+      <item>m</item>
+      <item>á</item>
+      <item>š</item>
+      <item> </item>
+      <item>U</item>
+      <item>l</item>
+      <item>r</item>
+      <item>i</item>
+      <item>c</item>
+      <item>h</item>
+    </author_raw>
+    <creation_date>17.05.2025 23:21:13</creation_date>
+    <creation_date_raw>
+      <item>D</item>
+      <item>:</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>5</item>
+      <item>0</item>
+      <item>5</item>
+      <item>1</item>
+      <item>7</item>
+      <item>2</item>
+      <item>3</item>
+      <item>2</item>
+      <item>1</item>
+      <item>1</item>
+      <item>3</item>
+      <item>+</item>
+      <item>0</item>
+      <item>2</item>
+      <item>'</item>
+      <item>0</item>
+      <item>0</item>
+      <item>'</item>
+    </creation_date_raw>
+    <creator>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </creator>
+    <creator_raw>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </creator_raw>
+    <modification_date>17.05.2025 23:21:13</modification_date>
+    <modification_date_raw>
+      <item>D</item>
+      <item>:</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>5</item>
+      <item>0</item>
+      <item>5</item>
+      <item>1</item>
+      <item>7</item>
+      <item>2</item>
+      <item>3</item>
+      <item>2</item>
+      <item>1</item>
+      <item>1</item>
+      <item>3</item>
+      <item>+</item>
+      <item>0</item>
+      <item>2</item>
+      <item>'</item>
+      <item>0</item>
+      <item>0</item>
+      <item>'</item>
+    </modification_date_raw>
+    <producer>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </producer>
+    <producer_raw>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item>®</item>
+      <item> </item>
+      <item>W</item>
+      <item>o</item>
+      <item>r</item>
+      <item>d</item>
+      <item> </item>
+      <item>f</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>M</item>
+      <item>i</item>
+      <item>c</item>
+      <item>r</item>
+      <item>o</item>
+      <item>s</item>
+      <item>o</item>
+      <item>f</item>
+      <item>t</item>
+      <item> </item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+    </producer_raw>
+    <subject />
+    <subject_raw />
+    <title>
+      <item>T</item>
+      <item>e</item>
+      <item>s</item>
+      <item>t</item>
+      <item>o</item>
+      <item>v</item>
+      <item>a</item>
+      <item>c</item>
+      <item>í</item>
+      <item> </item>
+      <item>s</item>
+      <item>o</item>
+      <item>u</item>
+      <item>b</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>W</item>
+      <item>O</item>
+      <item>R</item>
+      <item>D</item>
+    </title>
+    <title_raw>
+      <item>T</item>
+      <item>e</item>
+      <item>s</item>
+      <item>t</item>
+      <item>o</item>
+      <item>v</item>
+      <item>a</item>
+      <item>c</item>
+      <item>í</item>
+      <item> </item>
+      <item>s</item>
+      <item>o</item>
+      <item>u</item>
+      <item>b</item>
+      <item>o</item>
+      <item>r</item>
+      <item> </item>
+      <item>W</item>
+      <item>O</item>
+      <item>R</item>
+      <item>D</item>
+    </title_raw>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\raw-foto-test.CR3">
+    <FileName>raw-foto-test.CR3</FileName>
+    <FileType>CR3</FileType>
+    <ImageSize>6960x4640</ImageSize>
+    <CreateDate>2025:05:17 17:40:01+02:00</CreateDate>
+    <ISO>400</ISO>
+    <ExposureTime>1/400</ExposureTime>
+    <FNumber>1.8</FNumber>
+    <Lens>50.0 mm</Lens>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-file.cs">
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-odt.odt">
+    <creator>Testovací autor</creator>
+    <title>Testovací ODT soubor</title>
+    <generator>ODFPY/1.4.1</generator>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-rtf.rtf">
+    <title>Ukázkový dokument</title>
+    <author>Jan Novák</author>
+    <creatim>27.05.2025 14:30</creatim>
+    <keywords>test; rtf; metadata</keywords>
+    <comment>Toto je ukázkový RTF dokument s metadaty</comment>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-txt.txt">
+    <filesizeBytes>68</filesizeBytes>
+    <lastChangeDate>27.05.2025 19:33:49</lastChangeDate>
+    <lastMetadataChange>27.05.2025 19:33:49</lastMetadataChange>
+    <birthDate>27.05.2025 19:33:49</birthDate>
+    <METADATA />
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\word-test.docx">
+    <author>Tomáš Ulrich</author>
+    <category>word-test</category>
+    <comments />
+    <content_status>test</content_status>
+    <created>17.05.2025 21:19:00</created>
+    <identifier />
+    <keywords />
+    <language />
+    <last_modified_by>Tomáš Ulrich</last_modified_by>
+    <last_printed>17.05.2025 21:21:00</last_printed>
+    <modified>17.05.2025 21:21:00</modified>
+    <revision>4</revision>
+    <subject />
+    <title>Testovací soubor WORD</title>
+    <version />
+    <METADATA />
+  </FILE>
+</DIR></DIRS>
