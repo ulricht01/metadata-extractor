@@ -2,9 +2,9 @@
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\ogg-test-nested.ogg">
     <METADATA>
+      <date>2018</date>
       <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
       <encoded_by>LAME in FL Studio 20</encoded_by>
-      <date>2018</date>
     </METADATA>
   </FILE>
 </DIR>
