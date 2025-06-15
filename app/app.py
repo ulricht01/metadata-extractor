@@ -43,7 +43,7 @@ def extract_metadata(file_path):
     
 def convert_to_xml(filename, metadata, export_path):
     # Ujisti se, že metadata je slovník s popisnými klíči
-    xml_bytes = dicttoxml(metadata, custom_root="FILE", attr_type=False)
+    xml_bytes = dicttoxml({}, custom_root="FILE", attr_type=False)
     data_element = ET.fromstring(xml_bytes.decode("utf-8"))
     
     data_element.set("path", str(os.path.abspath(filename)))
@@ -53,7 +53,15 @@ def convert_to_xml(filename, metadata, export_path):
     
     metadata_element = ET.Element("METADATA")
     data_element.append(metadata_element)
-
+    
+    for key, value in metadata.items():
+        child = ET.Element(key)
+        if value is not None:
+            child.text = str(value)
+        else: 
+            child.text = ""
+        metadata_element.append(child)
+    
     tree = ET.ElementTree(dir_element)
 
     f = io.BytesIO()
@@ -109,7 +117,7 @@ if __name__ == "__main__":
     for file, metadata in all_metadata.items():
         print(f"{file}:")
         convert_to_xml(file, metadata, "exports")
-        join_xml_files("exports", "G:/Programování/sipky/metadata-extractor/nested_exports/all_in_ones.xml")
+        join_xml_files("exports", "G:/Programování/sipky/metadata-extractor/nested_exports/all.xml")
 
 
     

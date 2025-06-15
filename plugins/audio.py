@@ -1,6 +1,7 @@
 import mutagen
 import os
 from plugins.base_extractor import BaseExtractor
+import re
 
 class AudioExtractor(BaseExtractor):
     
@@ -39,7 +40,10 @@ class AudioExtractor(BaseExtractor):
         
         # všechny metadata, které jdou vytáhnout pomocí knihovny docx
         
-        
+        formated_metadata = {
+            re.sub(r"[ \(\)]", "_", key): value
+            for key, value in formated_metadata.items()
+        }
         return formated_metadata
 
 #test

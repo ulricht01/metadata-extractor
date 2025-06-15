@@ -1,14 +1,15 @@
 <?xml version="1.0" ?>
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\raw-foto-test.CR3">
-    <FileName>raw-foto-test.CR3</FileName>
-    <FileType>CR3</FileType>
-    <ImageSize>6960x4640</ImageSize>
-    <CreateDate>2025:05:17 17:40:01+02:00</CreateDate>
-    <ISO>400</ISO>
-    <ExposureTime>1/400</ExposureTime>
-    <FNumber>1.8</FNumber>
-    <Lens>50.0 mm</Lens>
-    <METADATA/>
+    <METADATA>
+      <FileName>raw-foto-test.CR3</FileName>
+      <FileType>CR3</FileType>
+      <ImageSize>6960x4640</ImageSize>
+      <CreateDate>2025:05:17 17:40:01+02:00</CreateDate>
+      <ISO>400</ISO>
+      <ExposureTime>1/400</ExposureTime>
+      <FNumber>1.8</FNumber>
+      <Lens>50.0 mm</Lens>
+    </METADATA>
   </FILE>
 </DIR>

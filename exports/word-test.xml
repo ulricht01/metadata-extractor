@@ -1,21 +1,22 @@
 <?xml version="1.0" ?>
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\word-test.docx">
-    <author>Tomáš Ulrich</author>
-    <category>word-test</category>
-    <comments/>
-    <content_status>test</content_status>
-    <created>17.05.2025 21:19:00</created>
-    <identifier/>
-    <keywords/>
-    <language/>
-    <last_modified_by>Tomáš Ulrich</last_modified_by>
-    <last_printed>17.05.2025 21:21:00</last_printed>
-    <modified>17.05.2025 21:21:00</modified>
-    <revision>4</revision>
-    <subject/>
-    <title>Testovací soubor WORD</title>
-    <version/>
-    <METADATA/>
+    <METADATA>
+      <author>Tomáš Ulrich</author>
+      <category>word-test</category>
+      <comments/>
+      <content_status>test</content_status>
+      <created>17.05.2025 21:19:00</created>
+      <identifier/>
+      <keywords/>
+      <language/>
+      <last_modified_by>Tomáš Ulrich</last_modified_by>
+      <last_printed>17.05.2025 21:21:00</last_printed>
+      <modified>17.05.2025 21:21:00</modified>
+      <revision>4</revision>
+      <subject/>
+      <title>Testovací soubor WORD</title>
+      <version/>
+    </METADATA>
   </FILE>
 </DIR>

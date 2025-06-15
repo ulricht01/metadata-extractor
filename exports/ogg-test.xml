@@ -1,9 +1,10 @@
 <?xml version="1.0" ?>
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\ogg-test.ogg">
-    <date>2018</date>
-    <key name="bpm (beats per minute)">120</key>
-    <encoded_by>LAME in FL Studio 20</encoded_by>
-    <METADATA/>
+    <METADATA>
+      <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
+      <encoded_by>LAME in FL Studio 20</encoded_by>
+      <date>2018</date>
+    </METADATA>
   </FILE>
 </DIR>

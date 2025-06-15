@@ -23,7 +23,7 @@ class FotoExtractor(BaseExtractor):
         
         if extension == ".CR3":
             # Cesta k exiftool.exe (relativní cesta)
-            exiftool_path = os.path.join(os.path.dirname(__file__), '../exiftool/exiftool.exe')
+            exiftool_path = os.path.join(os.path.dirname(__file__), '../tools/exiftool/exiftool.exe')
 
             try:
                 result = subprocess.run(

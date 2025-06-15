@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-rtf.rtf">
-    <title>Ukázkový dokument</title>
-    <author>Jan Novák</author>
-    <creatim>27.05.2025 14:30</creatim>
-    <keywords>test; rtf; metadata</keywords>
-    <comment>Toto je ukázkový RTF dokument s metadaty</comment>
-    <METADATA/>
+    <METADATA>
+      <title>Ukázkový dokument</title>
+      <author>Jan Novák</author>
+      <creatim>27.05.2025 14:30</creatim>
+      <keywords>test; rtf; metadata</keywords>
+      <comment>Toto je ukázkový RTF dokument s metadaty</comment>
+    </METADATA>
   </FILE>
 </DIR>
