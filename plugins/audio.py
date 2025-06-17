@@ -1,7 +1,6 @@
 import mutagen
 import os
 from plugins.base_extractor import BaseExtractor
-import re
 
 class AudioExtractor(BaseExtractor):
     
@@ -13,42 +12,63 @@ class AudioExtractor(BaseExtractor):
         return self._supported_extensions
         
     def extract_meta(self, file_path):
-        formated_metadata = {}
-        extension = os.path.splitext(file_path)[1]
+        extension = os.path.splitext(file_path)[1].lower()
+        
+        dc_fields = {
+            "title": "",
+            "creator": "",
+            "subject": "",
+            "description": "",
+            "publisher": "",
+            "contributor": "",
+            "date": "",
+            "type": "Sound",
+            "format": extension,
+            "identifier": "",
+            "source": "",
+            "language": "",
+            "relation": "",
+            "coverage": "",
+            "rights": ""
+        }
         
         if extension not in self._supported_extensions:
-            return {}
-        
+            return dc_fields
+
         file = mutagen.File(file_path)
+
+        if file is None:
+            return dc_fields
+
         if extension == ".ogg":
-            for key,value in file.items():
-                if isinstance(value, list):
-                    formated_metadata[key] = ", ".join(value)
-                else:
-                    formated_metadata[key] = str(value)
+            dc_fields.update({
+                "title": file.get("TITLE", [""])[0],
+                "creator": file.get("ARTIST", [""])[0],
+                "description": file.get("ALBUM", [""])[0],
+                "publisher": file.get("ORGANIZATION", [""])[0],
+                "contributor": file.get("PERFORMER", [""])[0],
+                "date": file.get("DATE", [""])[0],
+                "language": file.get("LANGUAGE", [""])[0],
+                "rights": file.get("COPYRIGHT", [""])[0]
+            })
+
         elif extension == ".mp3":
-            for key,value in file.items():
-                if isinstance(value, list):
-                    formated_metadata[key] = ", ".join(value)
-                elif key.startswith("TXXX"):
-                    desc = value.desc
-                    formated_metadata[desc] = str(value.text[0])
+            for key, value in file.items():
+                if key.startswith("TIT2"):
+                    dc_fields["title"] = str(value)
+                elif key.startswith("TPE1"):
+                    dc_fields["creator"] = str(value)
+                elif key.startswith("TALB"):
+                    dc_fields["description"] = str(value)
+                elif key.startswith("TPUB"):
+                    dc_fields["publisher"] = str(value)
+                elif key.startswith("TPE2"):
+                    dc_fields["contributor"] = str(value)
                 elif key.startswith("TDRC"):
-                    formated_metadata["Date"] = str(value.text[0])
-                else:
-                    formated_metadata[key] = str(value)
-        
-        # všechny metadata, které jdou vytáhnout pomocí knihovny docx
-        
-        formated_metadata = {
-            re.sub(r"[ \(\)]", "_", key): value
-            for key, value in formated_metadata.items()
-        }
-        return formated_metadata
+                    dc_fields["date"] = str(value)
+                elif key.startswith("TLAN"):
+                    dc_fields["language"] = str(value)
+                elif key.startswith("TCOP"):
+                    dc_fields["rights"] = str(value)
 
-#test
-#x = extract_meta("test-files/mp3-test.mp3")
-#y = extract_meta("test-files/ogg-test.ogg")
-#print(x)
-#print(y)
-
+        return dc_fields

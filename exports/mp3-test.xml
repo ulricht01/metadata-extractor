@@ -2,9 +2,21 @@
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\mp3-test.mp3">
     <METADATA>
-      <Encoded_by>LAME in FL Studio 20</Encoded_by>
-      <BPM__beats_per_minute_>120</BPM__beats_per_minute_>
-      <Date>2018</Date>
+      <title/>
+      <creator/>
+      <subject/>
+      <description/>
+      <publisher/>
+      <contributor/>
+      <date>2018</date>
+      <type>Sound</type>
+      <format>.mp3</format>
+      <identifier/>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
     </METADATA>
   </FILE>
 </DIR>

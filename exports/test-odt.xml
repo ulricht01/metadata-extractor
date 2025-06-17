@@ -2,9 +2,21 @@
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-odt.odt">
     <METADATA>
-      <creator>Testovací autor</creator>
       <title>Testovací ODT soubor</title>
-      <generator>ODFPY/1.4.1</generator>
+      <creator>Testovací autor</creator>
+      <subject/>
+      <description/>
+      <publisher/>
+      <contributor/>
+      <date/>
+      <type/>
+      <format>.odt</format>
+      <identifier/>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
     </METADATA>
   </FILE>
 </DIR>

@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+
+        *{
+            font-family: monospace;
+        }
+        body{
+            background-color: rgb(199, 197, 197);
+            margin: 0 auto;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.5fr 0.75fr 0.2fr;
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 5px 10px 5px black;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+
+        }
+        #bar-chart{
+            grid-column: 1;
+            grid-row: 2;
+            width: 100%;
+        }
+
+        .karty{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            height: fit-content;
+            margin: 0px auto;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+        }
+        
+        .karta {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+
+            flex: 0 1 100px; /* pevná šířka, která se přizpůsobí — všechny stejně široké */
+            height: 150px;
+
+            background-color: #343a40;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .karta > p:nth-of-type(1){
+            color: white;
+            font-size: 25px;
+            font-weight: 800;
+            
+        }
+
+        .karta > p:nth-of-type(2){
+            color: white;
+            font-size: 18px;
+            font-style: italic;
+            
+        }
+
+        .key-parameters{
+          display: flex;
+          grid-row: 3;
+          justify-content: space-evenly;
+          font-size: 15px;
+          border-top: 1px solid rgba(0, 0, 0, 0.493);
+          align-items: center;
+        }
+
+        .key-parameters p:first-child {
+            background-color: #d0e7ff;
+            color: #003366;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            border: 1px solid #cccccc;
+        }
+
+        .key-parameters p:last-child {
+            background-color: #ffe0e0;
+            color: #660000;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #cccccc;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+      <div class="karty"></div>
+        <canvas id="bar-chart" width="400" height="150"></canvas>
+        <div class="key-parameters">
+          <p>Zpracovaných souborů: <span>12</span></p>
+          <p>Nezpracovaných souborů: <span>1</span></p>
+        </div>
+    </div>
+
+<script>
+
+    const barChartData = {".mp3": 1, ".ogg": 2, ".docx": 2, ".odt": 1, ".pdf": 2, ".rtf": 1, ".txt": 1, ".xlsx": 1, ".CR3": 1};
+    const gridContainer = document.getElementsByClassName("grid-container")[0];
+
+    const karty = document.getElementsByClassName("karty")[0];
+
+    const extensionKeys = Object.keys(barChartData)
+    const extensionValues = Object.values(barChartData)
+
+    for(let i = 0; i < extensionKeys.length; i++){
+        const karta = document.createElement("div")
+        karta.classList.add("karta")
+        karty.append(karta)
+
+        const pElement1 = document.createElement("p")
+        const pElement2 = document.createElement("p")
+
+        pElement1.innerText = extensionKeys[i]
+        pElement2.innerText = extensionValues[i]
+
+        karta.append(pElement1)
+        karta.append(pElement2)
+    }
+
+
+    
+    
+    const canvasBarChart = document.getElementById("bar-chart")
+    const BarChartCTX = canvasBarChart.getContext("2d")
+
+     new Chart(BarChartCTX, {
+    type: "bar",
+    data: {
+      labels: Object.keys(barChartData),
+      datasets: [{
+        label: "Počet souborů",
+        data: Object.values(barChartData),
+        backgroundColor: '#4e79a7', 
+        hoverBackgroundColor: '#a0cbe8',
+        borderColor: "rgba(255, 255, 255, 1)",
+        borderWidth: 1,
+        borderRadius: 6
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            precision: 0
+          }
+        }
+      },
+      plugins: {
+        legend :{
+            display: false
+        }
+      }
+      
+    }
+  });
+     
+</script>
+</body>
+</html>

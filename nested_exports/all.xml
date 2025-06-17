@@ -1,111 +1,154 @@
 <?xml version='1.0' encoding='utf-8'?>
 <DIRS><DIR path="G:\Programování\sipky\metadata-extractor"><FILE path="G:\Programování\sipky\metadata-extractor\test-files\excel-test.xlsx">
     <METADATA>
-      <category />
-      <contentStatus />
-      <created>28.08.2007 12:06:36</created>
-      <creator>Mgr. Pavel Novák</creator>
-      <description />
-      <identifier />
-      <keywords />
-      <language />
-      <lastModifiedBy>Tomáš Ulrich</lastModifiedBy>
-      <lastPrinted />
-      <last_modified_by>Tomáš Ulrich</last_modified_by>
-      <modified>17.05.2025 22:08:43</modified>
-      <revision />
-      <subject />
-      <tagname>coreProperties</tagname>
       <title />
-      <version />
+      <creator>Mgr. Pavel Novák</creator>
+      <subject />
+      <description />
+      <publisher />
+      <contributor>Tomáš Ulrich</contributor>
+      <date>28.08.2007 12:06:36</date>
+      <type />
+      <format>.xlsx</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_pdf.pdf">
     <METADATA>
-      <author />
-      <author_raw />
-      <creation_date />
-      <creation_date_raw />
-      <creator />
-      <creator_raw />
-      <modification_date />
-      <modification_date_raw />
-      <producer>WeasyPrint 65.1</producer>
-      <producer_raw>WeasyPrint 65.1</producer_raw>
-      <subject />
-      <subject_raw />
       <title>The Transformative Power of Artificial Intelligence</title>
-      <title_raw>The Transformative Power of Artificial Intelligence</title_raw>
+      <creator />
+      <subject />
+      <description>WeasyPrint 65.1</description>
+      <publisher />
+      <contributor />
+      <date />
+      <type />
+      <format>.pdf</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_word.docx">
     <METADATA>
-      <author />
-      <category />
-      <comments />
-      <content_status />
-      <created>01.01.2022 05:00:00</created>
-      <identifier />
-      <keywords />
-      <language>en</language>
-      <last_modified_by />
-      <last_printed />
-      <modified>01.01.2022 05:00:00</modified>
-      <revision>0</revision>
-      <subject />
       <title>The Transformative Power of Artificial Intelligence</title>
-      <version />
+      <creator />
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
+      <date>01.01.2022 05:00:00</date>
+      <type />
+      <format>.docx</format>
+      <identifier />
+      <source />
+      <language>en</language>
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\mp3-test.mp3">
     <METADATA>
-      <Encoded_by>LAME in FL Studio 20</Encoded_by>
-      <BPM__beats_per_minute_>120</BPM__beats_per_minute_>
-      <Date>2018</Date>
+      <title />
+      <creator />
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
+      <date>2018</date>
+      <type>Sound</type>
+      <format>.mp3</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\ogg-test-nested.ogg">
     <METADATA>
-      <encoded_by>LAME in FL Studio 20</encoded_by>
+      <title />
+      <creator />
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
       <date>2018</date>
-      <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
+      <type>Sound</type>
+      <format>.ogg</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\ogg-test.ogg">
     <METADATA>
-      <encoded_by>LAME in FL Studio 20</encoded_by>
+      <title />
+      <creator />
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
       <date>2018</date>
-      <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
+      <type>Sound</type>
+      <format>.ogg</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\pdf-test.pdf">
     <METADATA>
-      <author>Tomáš Ulrich</author>
-      <author_raw>Tomáš Ulrich</author_raw>
-      <creation_date>17.05.2025 23:21:13</creation_date>
-      <creation_date_raw>D:20250517232113+02'00'</creation_date_raw>
-      <creator>Microsoft® Word for Microsoft 365</creator>
-      <creator_raw>Microsoft® Word for Microsoft 365</creator_raw>
-      <modification_date>17.05.2025 23:21:13</modification_date>
-      <modification_date_raw>D:20250517232113+02'00'</modification_date_raw>
-      <producer>Microsoft® Word for Microsoft 365</producer>
-      <producer_raw>Microsoft® Word for Microsoft 365</producer_raw>
-      <subject />
-      <subject_raw />
       <title>Testovací soubor WORD</title>
-      <title_raw>Testovací soubor WORD</title_raw>
+      <creator>Tomáš Ulrich</creator>
+      <subject />
+      <description>Microsoft® Word for Microsoft 365</description>
+      <publisher />
+      <contributor>Microsoft® Word for Microsoft 365</contributor>
+      <date>17.05.2025 23:21:13</date>
+      <type />
+      <format>.pdf</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\raw-foto-test.CR3">
     <METADATA>
-      <FileName>raw-foto-test.CR3</FileName>
-      <FileType>CR3</FileType>
-      <ImageSize>6960x4640</ImageSize>
-      <CreateDate>2025:05:17 17:40:01+02:00</CreateDate>
-      <ISO>400</ISO>
-      <ExposureTime>1/400</ExposureTime>
-      <FNumber>1.8</FNumber>
-      <Lens>50.0 mm</Lens>
+      <title>raw-foto-test.CR3</title>
+      <creator />
+      <subject />
+      <description>50.0 mm, 1/400s, ISO 400, f/1.8</description>
+      <publisher />
+      <contributor />
+      <date>2025:05:17 17:40:01+02:00</date>
+      <type>Image</type>
+      <format>CR3</format>
+      <identifier />
+      <source>test-files/raw-foto-test.CR3</source>
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-file.cs">
@@ -113,45 +156,78 @@
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-odt.odt">
     <METADATA>
-      <creator>Testovací autor</creator>
       <title>Testovací ODT soubor</title>
-      <generator>ODFPY/1.4.1</generator>
+      <creator>Testovací autor</creator>
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
+      <date />
+      <type />
+      <format>.odt</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-rtf.rtf">
     <METADATA>
       <title>Ukázkový dokument</title>
-      <author>Jan Novák</author>
-      <creatim>27.05.2025 14:30</creatim>
-      <keywords>test; rtf; metadata</keywords>
-      <comment>Toto je ukázkový RTF dokument s metadaty</comment>
+      <creator>Jan Novák</creator>
+      <subject />
+      <description>Toto je ukázkový RTF dokument s metadaty</description>
+      <publisher />
+      <contributor />
+      <date>27.05.2025 14:30</date>
+      <type />
+      <format>.rtf</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-txt.txt">
     <METADATA>
-      <filesizeBytes>68</filesizeBytes>
-      <lastChangeDate>27.05.2025 19:33:49</lastChangeDate>
-      <lastMetadataChange>27.05.2025 19:33:49</lastMetadataChange>
-      <birthDate>27.05.2025 19:33:49</birthDate>
+      <title>test-txt.txt</title>
+      <creator />
+      <subject />
+      <description />
+      <publisher />
+      <contributor />
+      <date>27.05.2025 19:33:49</date>
+      <type />
+      <format>.txt</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\word-test.docx">
     <METADATA>
-      <author>Tomáš Ulrich</author>
-      <category>word-test</category>
-      <comments />
-      <content_status>test</content_status>
-      <created>17.05.2025 21:19:00</created>
-      <identifier />
-      <keywords />
-      <language />
-      <last_modified_by>Tomáš Ulrich</last_modified_by>
-      <last_printed>17.05.2025 21:21:00</last_printed>
-      <modified>17.05.2025 21:21:00</modified>
-      <revision>4</revision>
-      <subject />
       <title>Testovací soubor WORD</title>
-      <version />
+      <creator>Tomáš Ulrich</creator>
+      <subject />
+      <description />
+      <publisher />
+      <contributor>Tomáš Ulrich</contributor>
+      <date>17.05.2025 21:19:00</date>
+      <type />
+      <format>.docx</format>
+      <identifier />
+      <source />
+      <language />
+      <relation />
+      <coverage />
+      <rights />
     </METADATA>
   </FILE>
 </DIR></DIRS>

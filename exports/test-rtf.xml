@@ -3,10 +3,20 @@
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-rtf.rtf">
     <METADATA>
       <title>Ukázkový dokument</title>
-      <author>Jan Novák</author>
-      <creatim>27.05.2025 14:30</creatim>
-      <keywords>test; rtf; metadata</keywords>
-      <comment>Toto je ukázkový RTF dokument s metadaty</comment>
+      <creator>Jan Novák</creator>
+      <subject/>
+      <description>Toto je ukázkový RTF dokument s metadaty</description>
+      <publisher/>
+      <contributor/>
+      <date>27.05.2025 14:30</date>
+      <type/>
+      <format>.rtf</format>
+      <identifier/>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
     </METADATA>
   </FILE>
 </DIR>

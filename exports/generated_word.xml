@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
 <DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-txt.txt">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_word.docx">
     <METADATA>
-      <title>test-txt.txt</title>
+      <title>The Transformative Power of Artificial Intelligence</title>
       <creator/>
       <subject/>
       <description/>
       <publisher/>
       <contributor/>
-      <date>27.05.2025 19:33:49</date>
+      <date>01.01.2022 05:00:00</date>
       <type/>
-      <format>.txt</format>
+      <format>.docx</format>
       <identifier/>
       <source/>
-      <language/>
+      <language>en</language>
       <relation/>
       <coverage/>
       <rights/>

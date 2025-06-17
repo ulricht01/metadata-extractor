@@ -3,26 +3,41 @@ import json
 import os
 from plugins.base_extractor import BaseExtractor
 
-
-
 class FotoExtractor(BaseExtractor):
-    
+
     def __init__(self):
         self._supported_extensions = [".CR3"]
-        
+
     @property
     def supported_extensions(self):
         return self._supported_extensions
-    
+
     def extract_meta(self, file_path):
-        formated_metadata = {}
-        extension = os.path.splitext(file_path)[1]
-        
+        extension = os.path.splitext(file_path)[1].upper()
+
+        # Inicializace DC slovníku s prázdnými hodnotami
+        dc_fields = {
+            "title": "",
+            "creator": "",
+            "subject": "",
+            "description": "",
+            "publisher": "",
+            "contributor": "",
+            "date": "",
+            "type": "Image",
+            "format": extension,
+            "identifier": "",
+            "source": "",
+            "language": "",
+            "relation": "",
+            "coverage": "",
+            "rights": ""
+        }
+
         if extension not in self._supported_extensions:
-            return {}
-        
+            return dc_fields
+
         if extension == ".CR3":
-            # Cesta k exiftool.exe (relativní cesta)
             exiftool_path = os.path.join(os.path.dirname(__file__), '../tools/exiftool/exiftool.exe')
 
             try:
@@ -33,26 +48,32 @@ class FotoExtractor(BaseExtractor):
                     check=True
                 )
                 metadata = json.loads(result.stdout)[0]
-                #print(metadata) -> Je tam toho mnoho
 
-                # Vytáhnout jen některé zajímavé klíče (přizpůsob dle potřeby)
-                keys_of_interest = [
-                    'FileName', 'FileType', 'ImageSize', 'CameraModelName',
-                    'CreateDate', 'ISO', 'ExposureTime', 'FNumber', 'Lens'
-                ]
-                for key in keys_of_interest:
-                    if key in metadata:
-                        formated_metadata[key] = metadata[key]
+                # Mapování konkrétních EXIF klíčů na Dublin Core pole:
+                dc_fields["title"] = metadata.get("FileName", "")
+                dc_fields["creator"] = metadata.get("CameraModelName", "")
+                dc_fields["subject"] = metadata.get("Subject", "")  # často chybí, ale pokud je, vložit
+                dc_fields["description"] = ", ".join(filter(None, [
+                    metadata.get("Lens", ""),
+                    f"{metadata.get('ExposureTime', '')}s" if metadata.get("ExposureTime") else "",
+                    f"ISO {metadata.get('ISO', '')}" if metadata.get("ISO") else "",
+                    f"f/{metadata.get('FNumber', '')}" if metadata.get("FNumber") else ""
+                ]))
+                dc_fields["publisher"] = metadata.get("Publisher", "")  # EXIF často neobsahuje
+                dc_fields["contributor"] = metadata.get("Software", "")
+                dc_fields["date"] = metadata.get("CreateDate", "")
+                dc_fields["type"] = "Image"
+                dc_fields["format"] = metadata.get("FileType", extension)
+                dc_fields["identifier"] = metadata.get("FileInodeNumber", "")  # nebo FileModifyDate, apod.
+                dc_fields["source"] = metadata.get("SourceFile", "")
+                dc_fields["language"] = metadata.get("Language", "")  # EXIF asi neobsahuje
+                dc_fields["relation"] = metadata.get("RelatedImageFile", "")  # pokud existuje
+                dc_fields["coverage"] = metadata.get("GPSPosition", "")  # souřadnice, pokud jsou
+                dc_fields["rights"] = metadata.get("Rights", "")  # info o autorských právech
 
             except subprocess.CalledProcessError as e:
                 print("Chyba při volání exiftool:", e)
             except Exception as e:
                 print("Obecná chyba:", e)
 
-        return formated_metadata
-
-#test
-#x = extract_meta("test-files/raw-foto-test.CR3")
-
-#print(x)
-
+        return dc_fields

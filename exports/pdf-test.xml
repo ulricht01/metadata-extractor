@@ -2,20 +2,21 @@
 <DIR path="G:\Programování\sipky\metadata-extractor">
   <FILE path="G:\Programování\sipky\metadata-extractor\test-files\pdf-test.pdf">
     <METADATA>
-      <author>Tomáš Ulrich</author>
-      <author_raw>Tomáš Ulrich</author_raw>
-      <creation_date>17.05.2025 23:21:13</creation_date>
-      <creation_date_raw>D:20250517232113+02'00'</creation_date_raw>
-      <creator>Microsoft® Word for Microsoft 365</creator>
-      <creator_raw>Microsoft® Word for Microsoft 365</creator_raw>
-      <modification_date>17.05.2025 23:21:13</modification_date>
-      <modification_date_raw>D:20250517232113+02'00'</modification_date_raw>
-      <producer>Microsoft® Word for Microsoft 365</producer>
-      <producer_raw>Microsoft® Word for Microsoft 365</producer_raw>
-      <subject/>
-      <subject_raw/>
       <title>Testovací soubor WORD</title>
-      <title_raw>Testovací soubor WORD</title_raw>
+      <creator>Tomáš Ulrich</creator>
+      <subject/>
+      <description>Microsoft® Word for Microsoft 365</description>
+      <publisher/>
+      <contributor>Microsoft® Word for Microsoft 365</contributor>
+      <date>17.05.2025 23:21:13</date>
+      <type/>
+      <format>.pdf</format>
+      <identifier/>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
     </METADATA>
   </FILE>
 </DIR>
