@@ -19,9 +19,16 @@
         .grid-container{
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 0.5fr 0.75fr;
-            width: 100%;
-            height: 100%;
+            grid-template-rows: 0.5fr 0.75fr 0.2fr;
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 5px 10px 5px black;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+
         }
         #bar-chart{
             grid-column: 1;
@@ -37,6 +44,7 @@
             margin: 0px auto;
             flex-wrap: wrap;
             justify-content: flex-start;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.493);
         }
         
         .karta {
@@ -48,8 +56,8 @@
             flex: 0 1 100px; /* pevná šířka, která se přizpůsobí — všechny stejně široké */
             height: 150px;
 
-            background-color: rgba(0, 0, 0, 0.767);
-            box-shadow: 0px 0px 5px 5px rgba(245, 245, 245, 0.521);
+            background-color: #343a40;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             border-radius: 10px;
             margin: 10px;
         }
@@ -68,13 +76,48 @@
             
         }
 
+        .key-parameters{
+          display: flex;
+          grid-row: 3;
+          justify-content: space-evenly;
+          font-size: 15px;
+          border-top: 1px solid rgba(0, 0, 0, 0.493);
+          align-items: center;
+        }
+
+        .key-parameters p:first-child {
+            background-color: #d0e7ff;
+            color: #003366;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            border: 1px solid #cccccc;
+        }
+
+        .key-parameters p:last-child {
+            background-color: #ffe0e0;
+            color: #660000;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #cccccc;
+        }
+
 
     </style>
 
 </head>
 <body>
     <div class="grid-container">
+      <div class="karty"></div>
         <canvas id="bar-chart" width="400" height="150"></canvas>
+        <div class="key-parameters">
+          <p>Zpracovaných souborů: <span>{{PROCESSED}}</span></p>
+          <p>Nezpracovaných souborů: <span>{{NOTPROCESSED}}</span></p>
+        </div>
     </div>
 
 <script>
@@ -82,9 +125,7 @@
     const barChartData = {{BARCHARTDATA}};
     const gridContainer = document.getElementsByClassName("grid-container")[0];
 
-    const karty = document.createElement("div");
-    karty.classList.add("karty"); // Přidej mu třídu, ať můžeš stylovat
-    gridContainer.append(karty);
+    const karty = document.getElementsByClassName("karty")[0];
 
     const extensionKeys = Object.keys(barChartData)
     const extensionValues = Object.values(barChartData)
@@ -115,11 +156,13 @@
     data: {
       labels: Object.keys(barChartData),
       datasets: [{
-        label: "Počet souborů podle přípony",
+        label: "Počet souborů",
         data: Object.values(barChartData),
-        backgroundColor: "rgba(54, 162, 235, 0.5)",
-        borderColor: "rgba(54, 162, 235, 1)",
-        borderWidth: 1
+        backgroundColor: '#4e79a7', 
+        hoverBackgroundColor: '#a0cbe8',
+        borderColor: "rgba(255, 255, 255, 1)",
+        borderWidth: 1,
+        borderRadius: 6
       }]
     },
     options: {

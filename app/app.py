@@ -11,6 +11,7 @@ from xml.dom.minidom import parseString
 import xml.etree.ElementTree as ET
 import io
 import json
+import webbrowser
 
 from plugins.base_extractor import BaseExtractor
 
@@ -28,7 +29,19 @@ def report_dashboard(dashboard_data, output_path):
     with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
         
-    html = template.replace("{{BARCHARTDATA}}", json.dumps(dashboard_data, ensure_ascii=False))
+    processed = {key: value for key, value in dashboard_data.items() if value != 0 and key != "none"}
+    
+    files_counts = {
+        "processed_files": sum(value for key, value in dashboard_data.items() if key != "none"),
+        "not_processed_files": dashboard_data.get("none", 0)
+}
+    
+    html = (
+        template
+        .replace("{{BARCHARTDATA}}", json.dumps(processed, ensure_ascii=False))
+        .replace("{{PROCESSED}}", str(files_counts["processed_files"]))
+        .replace("{{NOTPROCESSED}}", str(files_counts["not_processed_files"]))
+    )
 
     
     output_file = os.path.join(output_path, "metadata_report.html")
@@ -36,6 +49,8 @@ def report_dashboard(dashboard_data, output_path):
         f.write(html)
         
     print(f"Dashboard vygenerován: {output_file}")
+    webbrowser.open_new_tab(output_path)
+    
 
 def load_plugins():
     for loader, module_name, is_pkg in pkgutil.iter_modules(plugins.__path__):

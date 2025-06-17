@@ -20,6 +20,43 @@
       <version />
     </METADATA>
   </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_pdf.pdf">
+    <METADATA>
+      <author />
+      <author_raw />
+      <creation_date />
+      <creation_date_raw />
+      <creator />
+      <creator_raw />
+      <modification_date />
+      <modification_date_raw />
+      <producer>WeasyPrint 65.1</producer>
+      <producer_raw>WeasyPrint 65.1</producer_raw>
+      <subject />
+      <subject_raw />
+      <title>The Transformative Power of Artificial Intelligence</title>
+      <title_raw>The Transformative Power of Artificial Intelligence</title_raw>
+    </METADATA>
+  </FILE>
+<FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_word.docx">
+    <METADATA>
+      <author />
+      <category />
+      <comments />
+      <content_status />
+      <created>01.01.2022 05:00:00</created>
+      <identifier />
+      <keywords />
+      <language>en</language>
+      <last_modified_by />
+      <last_printed />
+      <modified>01.01.2022 05:00:00</modified>
+      <revision>0</revision>
+      <subject />
+      <title>The Transformative Power of Artificial Intelligence</title>
+      <version />
+    </METADATA>
+  </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\mp3-test.mp3">
     <METADATA>
       <Encoded_by>LAME in FL Studio 20</Encoded_by>
@@ -29,16 +66,16 @@
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\ogg-test-nested.ogg">
     <METADATA>
+      <encoded_by>LAME in FL Studio 20</encoded_by>
       <date>2018</date>
       <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
-      <encoded_by>LAME in FL Studio 20</encoded_by>
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\ogg-test.ogg">
     <METADATA>
+      <encoded_by>LAME in FL Studio 20</encoded_by>
       <date>2018</date>
       <bpm__beats_per_minute_>120</bpm__beats_per_minute_>
-      <encoded_by>LAME in FL Studio 20</encoded_by>
     </METADATA>
   </FILE>
 <FILE path="G:\Programování\sipky\metadata-extractor\test-files\pdf-test.pdf">
