@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\64.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None. Clinical', 'XXXX. MVC.', '2 images. Heart size upper limits of normal. Mediastinal contours are maintained. The patient is mildly rotated. There is a small to moderate sized right apical pneumothorax which measures approximately 2.0 cm. No focal airspace consolidation is seen. Left chest is clear. No definite displaced bony injury is seen. Results called XXXX. XXXX XXXX p.m. XXXX, XXXX.', 'Small to moderate right apical pneumothorax.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR64</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR64_IM-2218-2001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

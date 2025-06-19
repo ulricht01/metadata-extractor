@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\75.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['XXXX, XXXX', 'XXXX-year-old XXXX with chest pain.', 'The heart size is stable. The aorta is ectatic and atherosclerotic but stable. XXXX sternotomy XXXX are again noted. The scarring in the left lower lobe is again noted and unchanged from prior exam. There are mild bilateral prominent lung interstitial opacities consistent with emphysematous disease. The calcified granulomas are stable.', '1. Changes of emphysema and left lower lobe scarring, both stable. 2. Unchanged degenerative and atherosclerotic changes of the thoracic aorta.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR75</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR75_IM-2303-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

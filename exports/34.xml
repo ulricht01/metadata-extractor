@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\34.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None.', 'XXXX year old with chest pain.', 'The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion.', 'No acute cardiopulmonary disease.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR34</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR34_IM-1644-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

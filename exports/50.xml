@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\50.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['XXXX', 'pt with sob,', 'A XXXX XXXX lung volumes. Lungs are clear without focal airspace disease. No pleural effusions or pneumothoraces. cardiomegaly. Degenerative changes in the spine.', 'Cardiomegaly with low lung volumes which are grossly clear.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR50</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR50_IM-2118-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

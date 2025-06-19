@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\91.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None', 'Chest pain, right arm numbness', 'Minimal right-to-left cardiomediastinal shift. The cardiomediastinal silhouette is otherwise normal size and configuration. Pulmonary vasculature within normal limits. There is a moderate sized right pneumothorax. This measures 3.2 cm at the level the right apex.', 'Moderate sized right pneumothorax. There is minimal right-to-left cardiomediastinal shift, suggesting XXXX.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR91</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR91_IM-2415-2001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

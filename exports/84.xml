@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\84.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None.', 'XXXX year-old male with dyspnea, chemical exposure.', 'There are low lung volumes with bronchovascular crowding as a result. No pleural effusion, pneumothorax or focal airspace disease. Cardiomediastinal silhouette is within normal limits. No free subdiaphragmatic air.', 'Low lung volumes. No acute pulmonary disease.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR84</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR84_IM-2363-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

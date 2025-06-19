@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\76.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None.', 'Pilonidal cyst, preop evaluation.', 'Apparent scarring within the lingula. Lungs are otherwise clear. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour.', 'Apparent scarring within the lingula, otherwise unremarkable.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR76</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR76_IM-2309-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\51.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['Chest 2 views from XXXX, XXXX. .', 'preop XXXX', 'Heart size is normal and cardiomediastinal silhouette is normal. There are scattered calcified granulomas throughout both lung XXXX. Lungs are clear bilaterally otherwise. No bony or soft tissue abnormalities.', 'No acute cardiopulmonary abnormality.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR51</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR51_IM-2125-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

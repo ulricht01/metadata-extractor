@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_pngs\CXR1_1_IM-0001-4001.png">
+    <METADATA>
+      <title/>
+      <creator/>
+      <subject/>
+      <description/>
+      <publisher/>
+      <contributor/>
+      <date/>
+      <type>Image</type>
+      <format>.PNG</format>
+      <identifier/>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
+    </METADATA>
+  </FILE>
+</DIR>

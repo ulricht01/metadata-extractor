@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\95.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['XXXX, XXXX', 'Dyspnea', 'There is a single calcified granuloma in the right lung base. The lungs are otherwise grossly clear bilaterally. There is no pneumothorax or pleural effusion. Cardiac and mediastinal silhouettes are normal. There are cholecystectomy clips in the right upper quadrant of the abdomen. Small T-spine osteophytes are noted.', 'No acute cardiopulmonary abnormality.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR95</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR95_IM-2445-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

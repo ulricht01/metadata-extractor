@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\82.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['Chest x-XXXX XXXX', 'PAIN IN THORACIC SPINE Pain started in leg area two weeks ago now having severe pain in upper XXXX back area rt side. HF', 'No airspace disease, effusion or noncalcified nodule. Normal heart size and mediastinum. Left axillary surgical clips unchanged Visualized XXXX of the chest XXXX are within normal limits.', 'No acute cardiopulmonary abnormality.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR82</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR82_IM-2350-3001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

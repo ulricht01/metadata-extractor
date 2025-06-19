@@ -3,10 +3,11 @@ import json
 import os
 from plugins.base_extractor import BaseExtractor
 
+
 class FotoExtractor(BaseExtractor):
 
     def __init__(self):
-        self._supported_extensions = [".CR3"]
+        self._supported_extensions = [".CR3", ".png"]
 
     @property
     def supported_extensions(self):
@@ -37,7 +38,7 @@ class FotoExtractor(BaseExtractor):
         if extension not in self._supported_extensions:
             return dc_fields
 
-        if extension == ".CR3":
+        if extension in [".CR3", ".png"]:
             exiftool_path = os.path.join(os.path.dirname(__file__), '../tools/exiftool/exiftool.exe')
 
             try:
@@ -75,5 +76,7 @@ class FotoExtractor(BaseExtractor):
                 print("Chyba při volání exiftool:", e)
             except Exception as e:
                 print("Obecná chyba:", e)
-
         return dc_fields
+
+
+i = FotoExtractor()

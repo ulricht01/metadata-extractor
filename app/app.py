@@ -29,7 +29,13 @@ def report_dashboard(dashboard_data, output_path):
     with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
         
-    processed = {key: value for key, value in dashboard_data.items() if value != 0 and key != "none"}
+    processed = {
+        key: value
+        for key, value in sorted(dashboard_data.items(), key=lambda item: item[1], reverse=True)
+        if value != 0 and key != "none"
+    }
+    
+    
     
     files_counts = {
         "processed_files": sum(value for key, value in dashboard_data.items() if key != "none"),

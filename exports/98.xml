@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\98.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['XXXX, XXXX.', "Chest pain shortness of breath for 3 days. The patient's lower abdomen was shielded for this exam.", 'Frontal and lateral views of the chest show an unchanged cardiomediastinal silhouette. Reduced lung volumes with basilar atelectasis. No XXXX focal airspace consolidation or pleural effusion.', 'No acute or active cardiac, pulmonary or pleural disease.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR98</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR98_IM-2467-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

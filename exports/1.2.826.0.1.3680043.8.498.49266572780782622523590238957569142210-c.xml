@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\dicom\1.2.826.0.1.3680043.8.498.49266572780782622523590238957569142210-c.dcm">
+    <METADATA>
+      <title>XRAY</title>
+      <creator>[]</creator>
+      <subject/>
+      <description>['XRAY', 'ORIGINAL PRIMARY']</description>
+      <publisher/>
+      <contributor/>
+      <date>075719</date>
+      <type>ORIGINAL PRIMARY</type>
+      <format>.dcm</format>
+      <identifier>437</identifier>
+      <source/>
+      <language/>
+      <relation/>
+      <coverage/>
+      <rights/>
+    </METADATA>
+  </FILE>
+</DIR>

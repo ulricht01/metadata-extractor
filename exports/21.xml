@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\21.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['None', 'Patient confused. Possible head injury.', None, 'Heart size normal. Mediastinal silhouettes and pulmonary vascularity are within normal limits. Calcified lingular granuloma. No focal consolidations or pleural effusions. No pneumothorax. Breast implants there is a moderate wedge XXXX deformity of the midthoracic vertebrae, XXXX T6, age-indeterminate.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR21</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR21_IM-0729-1001-0001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

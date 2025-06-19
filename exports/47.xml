@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\47.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['XXXX, XXXX', 'Kidney transplant evaluation', None, 'Heart size is within normal limits. Coronary artery stent noted. No edema. No focal consolidation, pleural effusion or pneumothorax. Mild nonspecific biapical pleural thickening. Clips from prior cholecystectomy are noted.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR47</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR47_IM-2098-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>

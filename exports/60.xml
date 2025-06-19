@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<DIR path="G:\Programování\sipky\metadata-extractor">
+  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\60.xml">
+    <METADATA>
+      <title>Indiana University Chest X-ray Collection</title>
+      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
+      <subject>pulmonary diseases</subject>
+      <description>['Chest radiograph XXXX/XXXX.', 'XXXX-year-old male for preop evaluation.', 'Stable appearance of hiatal hernia. Clear right lung XXXX.In the left superior lower lobe there is a 1.9 x 1.8 cm round area of density which has increased in size compared to prior chest radiograph and recommend a XXXX chest, abdomen and pelvis with contrast as this area is suspicious for potential malignancy. Normal cardiac contour. No pneumothorax or pleural effusion.', '1. Round area of density measuring 1.9 x 1.8 cm in left superior lower lobe with interval increased size compared to prior imaging. Recommend XXXX chest, abdomen and pelvis with contrast for further evaluation. Dr. XXXX XXXX notified by the Veriphy critical result notification XXXX of the left pulmonary mass and recommended followup XXXX chest, abdomen and pelvis with contrast at XXXX XXXX/XXXX.']</description>
+      <publisher>Indiana University</publisher>
+      <contributor>Indiana University</contributor>
+      <date>2013-08-01</date>
+      <type>XR</type>
+      <format>.xml</format>
+      <identifier>CXR60</identifier>
+      <source/>
+      <language>eng</language>
+      <relation>CXR60_IM-2192-1001</relation>
+      <coverage/>
+      <rights>open-access</rights>
+    </METADATA>
+  </FILE>
+</DIR>
