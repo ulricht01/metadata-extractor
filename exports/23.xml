@@ -1,22 +1,30 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\23.xml">
-    <METADATA>
-      <title>Indiana University Chest X-ray Collection</title>
-      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
-      <subject>pulmonary diseases</subject>
-      <description>['None', 'Nausea, vomiting, preop for surgery', 'The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.', 'No evidence of active disease.']</description>
-      <publisher>Indiana University</publisher>
-      <contributor>Indiana University</contributor>
-      <date>2013-08-01</date>
-      <type>XR</type>
-      <format>.xml</format>
-      <identifier>CXR23</identifier>
-      <source/>
-      <language>eng</language>
-      <relation>CXR23_IM-0879-1001</relation>
-      <coverage/>
-      <rights>open-access</rights>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\xray_reports">
+  <file path="test-files\health_data\xray_reports\23.xml">
+    <metadata>
+      <set type="dc:title">Indiana University Chest X-ray Collection</set>
+      <set type="dc:creator">
+        <add>Marc Kohli</add>
+        <add>Marc Rosenman</add>
+      </set>
+      <set type="dc:subject">pulmonary diseases</set>
+      <set type="dc:description">
+        <add>None</add>
+        <add>Nausea, vomiting, preop for surgery</add>
+        <add>The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.</add>
+        <add>No evidence of active disease.</add>
+      </set>
+      <set type="dc:publisher">Indiana University</set>
+      <set type="dc:contributor">Indiana University</set>
+      <set type="dc:date">2013-08-01</set>
+      <set type="dc:type">XR</set>
+      <set type="dc:format">.xml</set>
+      <set type="dc:identifier">CXR23</set>
+      <set type="dc:source"/>
+      <set type="dc:language">eng</set>
+      <set type="dc:relation">CXR23_IM-0879-1001</set>
+      <set type="dc:coverage"/>
+      <set type="dc:rights">open-access</set>
+    </metadata>
+  </file>
+</dir>

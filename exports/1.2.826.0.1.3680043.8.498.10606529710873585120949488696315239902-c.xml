@@ -1,22 +1,25 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\dicom\1.2.826.0.1.3680043.8.498.10606529710873585120949488696315239902-c.dcm">
-    <METADATA>
-      <title>XRAY</title>
-      <creator>[]</creator>
-      <subject/>
-      <description>['XRAY', 'ORIGINAL PRIMARY']</description>
-      <publisher/>
-      <contributor/>
-      <date>173017</date>
-      <type>ORIGINAL PRIMARY</type>
-      <format>.dcm</format>
-      <identifier>564</identifier>
-      <source/>
-      <language/>
-      <relation/>
-      <coverage/>
-      <rights/>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\dicom">
+  <file path="test-files\health_data\dicom\1.2.826.0.1.3680043.8.498.10606529710873585120949488696315239902-c.dcm">
+    <metadata>
+      <set type="dc:title">XRAY</set>
+      <set type="dc:creator"/>
+      <set type="dc:subject"/>
+      <set type="dc:description">
+        <add>XRAY</add>
+        <add>ORIGINAL PRIMARY</add>
+      </set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date">173017</set>
+      <set type="dc:type">ORIGINAL PRIMARY</set>
+      <set type="dc:format">.dcm</set>
+      <set type="dc:identifier">564</set>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

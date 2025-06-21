@@ -1,22 +1,22 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-rtf.rtf">
-    <METADATA>
-      <title>Ukázkový dokument</title>
-      <creator>Jan Novák</creator>
-      <subject/>
-      <description>Toto je ukázkový RTF dokument s metadaty</description>
-      <publisher/>
-      <contributor/>
-      <date>27.05.2025 14:30</date>
-      <type/>
-      <format>.rtf</format>
-      <identifier/>
-      <source/>
-      <language/>
-      <relation/>
-      <coverage/>
-      <rights/>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files">
+  <file path="test-files\test-rtf.rtf">
+    <metadata>
+      <set type="dc:title">Ukázkový dokument</set>
+      <set type="dc:creator">Jan Novák</set>
+      <set type="dc:subject"/>
+      <set type="dc:description">Toto je ukázkový RTF dokument s metadaty</set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date">27.05.2025 14:30</set>
+      <set type="dc:type">Text</set>
+      <set type="dc:format">.rtf</set>
+      <set type="dc:identifier">test-rtf.rtf_316</set>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

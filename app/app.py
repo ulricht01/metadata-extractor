@@ -87,23 +87,27 @@ def extract_metadata(file_path):
         return {}
     
 def convert_to_xml(filename, metadata, export_path):
-    # Ujisti se, že metadata je slovník s popisnými klíči
-    xml_bytes = dicttoxml({}, custom_root="FILE", attr_type=False)
+    xml_bytes = dicttoxml({}, custom_root="file", attr_type=False)
     data_element = ET.fromstring(xml_bytes.decode("utf-8"))
     
-    data_element.set("path", str(os.path.abspath(filename)))
+    data_element.set("path", str(os.path.relpath(filename)))
 
-    dir_element = ET.Element("DIR", attrib={"path": str(os.path.abspath(""))})
+    dir_element = ET.Element("dir", attrib={"path": os.path.relpath(os.path.dirname(filename), start=export_path)})
     dir_element.append(data_element)
     
-    metadata_element = ET.Element("METADATA")
+    metadata_element = ET.Element("metadata")
     data_element.append(metadata_element)
     
     for key, value in metadata.items():
-        child = ET.Element(key)
-        if value is not None:
+        child = ET.Element("set", attrib={"type": f"dc:{key}"})
+        if isinstance(value, list):
+            for item in value:
+                add_elem = ET.Element("add")
+                add_elem.text = str(item)
+                child.append(add_elem)
+        elif value is not None:
             child.text = str(value)
-        else: 
+        else:
             child.text = ""
         metadata_element.append(child)
     
@@ -132,13 +136,13 @@ def join_xml_files(export_path, output_file):
                 dir_path = root_elem.attrib.get('path')
                 
                 if dir_path not in dir_map:
-                    new_dir_elem = ET.Element('DIR', {'path': dir_path})
+                    new_dir_elem = ET.Element('dir', {'path': dir_path})
                     dir_map[dir_path] = new_dir_elem
 
-                for file_elem in root_elem.findall('FILE'):
+                for file_elem in root_elem.findall('file'):
                     dir_map[dir_path].append(file_elem)
 
-    combined_root = ET.Element('DIRS')
+    combined_root = ET.Element('dir', {"xmlns": "http://ki.ujep.cz/metafiles"})
 
     for dir_elem in dir_map.values():
         combined_root.append(dir_elem)
@@ -148,6 +152,7 @@ def join_xml_files(export_path, output_file):
     combined_tree.write(output_file, encoding='utf-8', xml_declaration=True)
 
     
+
 if __name__ == "__main__":
     load_plugins()
 
@@ -163,7 +168,8 @@ if __name__ == "__main__":
         print(f"{file}:")
         convert_to_xml(file, metadata, "exports")
         join_xml_files("exports", "G:/Programování/sipky/metadata-extractor/nested_exports/all.xml")
-        report_dashboard(dashboard_data, "G:/Programování/sipky/metadata-extractor/exports/reports")
+    report_dashboard(dashboard_data, "G:/Programování/sipky/metadata-extractor/exports/reports")
+    join_xml_files("exports", "G:/Programování/sipky/metadata-extractor/nested_exports/all.xml")
 
 
     

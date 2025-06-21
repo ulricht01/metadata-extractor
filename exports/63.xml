@@ -1,22 +1,30 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\63.xml">
-    <METADATA>
-      <title>Indiana University Chest X-ray Collection</title>
-      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
-      <subject>pulmonary diseases</subject>
-      <description>['XXXX', 'XXXX-year-old female, pain, short of breath', 'Stable flattening of the posterior diaphragm and scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. Stable cardiomediastinal silhouette with normal heart size and aortic ectasia/tortuosity, stable mediastinal contours. No definite pleural effusion seen, no typical findings of pulmonary edema. Following spine ossifications and marginal osteophytes again noted.', 'Chronic changes as described, no acute findings']</description>
-      <publisher>Indiana University</publisher>
-      <contributor>Indiana University</contributor>
-      <date>2013-08-01</date>
-      <type>XR</type>
-      <format>.xml</format>
-      <identifier>CXR63</identifier>
-      <source/>
-      <language>eng</language>
-      <relation>CXR63_IM-2210-0001-0001</relation>
-      <coverage/>
-      <rights>open-access</rights>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\xray_reports">
+  <file path="test-files\health_data\xray_reports\63.xml">
+    <metadata>
+      <set type="dc:title">Indiana University Chest X-ray Collection</set>
+      <set type="dc:creator">
+        <add>Marc Kohli</add>
+        <add>Marc Rosenman</add>
+      </set>
+      <set type="dc:subject">pulmonary diseases</set>
+      <set type="dc:description">
+        <add>XXXX</add>
+        <add>XXXX-year-old female, pain, short of breath</add>
+        <add>Stable flattening of the posterior diaphragm and scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. Stable cardiomediastinal silhouette with normal heart size and aortic ectasia/tortuosity, stable mediastinal contours. No definite pleural effusion seen, no typical findings of pulmonary edema. Following spine ossifications and marginal osteophytes again noted.</add>
+        <add>Chronic changes as described, no acute findings</add>
+      </set>
+      <set type="dc:publisher">Indiana University</set>
+      <set type="dc:contributor">Indiana University</set>
+      <set type="dc:date">2013-08-01</set>
+      <set type="dc:type">XR</set>
+      <set type="dc:format">.xml</set>
+      <set type="dc:identifier">CXR63</set>
+      <set type="dc:source"/>
+      <set type="dc:language">eng</set>
+      <set type="dc:relation">CXR63_IM-2210-0001-0001</set>
+      <set type="dc:coverage"/>
+      <set type="dc:rights">open-access</set>
+    </metadata>
+  </file>
+</dir>

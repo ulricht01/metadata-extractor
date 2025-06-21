@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dir path="..\test-files">
+  <file path="test-files\tone-test.mp3">
+    <metadata>
+      <set type="dc:title">Pure Tone Test</set>
+      <set type="dc:creator">Sample-Files.com</set>
+      <set type="dc:subject">Test Tone</set>
+      <set type="dc:description">Sample Audio Files</set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date">2025</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier"/>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

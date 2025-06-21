@@ -1,22 +1,30 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\68.xml">
-    <METADATA>
-      <title>Indiana University Chest X-ray Collection</title>
-      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
-      <subject>pulmonary diseases</subject>
-      <description>[None, 'rib pain. Left rib left chest pain.', None, 'Rib films. No fractures or dislocations. Chest. Heart size normal. Lungs are clear. No effusion or pneumothorax. Minimal degenerative disease thoracic spine']</description>
-      <publisher>Indiana University</publisher>
-      <contributor>Indiana University</contributor>
-      <date>2013-08-01</date>
-      <type>XR</type>
-      <format>.xml</format>
-      <identifier>CXR68</identifier>
-      <source/>
-      <language>eng</language>
-      <relation>CXR68_IM-2251-1001</relation>
-      <coverage/>
-      <rights>open-access</rights>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\xray_reports">
+  <file path="test-files\health_data\xray_reports\68.xml">
+    <metadata>
+      <set type="dc:title">Indiana University Chest X-ray Collection</set>
+      <set type="dc:creator">
+        <add>Marc Kohli</add>
+        <add>Marc Rosenman</add>
+      </set>
+      <set type="dc:subject">pulmonary diseases</set>
+      <set type="dc:description">
+        <add>None</add>
+        <add>rib pain. Left rib left chest pain.</add>
+        <add>None</add>
+        <add>Rib films. No fractures or dislocations. Chest. Heart size normal. Lungs are clear. No effusion or pneumothorax. Minimal degenerative disease thoracic spine</add>
+      </set>
+      <set type="dc:publisher">Indiana University</set>
+      <set type="dc:contributor">Indiana University</set>
+      <set type="dc:date">2013-08-01</set>
+      <set type="dc:type">XR</set>
+      <set type="dc:format">.xml</set>
+      <set type="dc:identifier">CXR68</set>
+      <set type="dc:source"/>
+      <set type="dc:language">eng</set>
+      <set type="dc:relation">CXR68_IM-2251-1001</set>
+      <set type="dc:coverage"/>
+      <set type="dc:rights">open-access</set>
+    </metadata>
+  </file>
+</dir>

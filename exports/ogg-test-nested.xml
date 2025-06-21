@@ -1,22 +1,22 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\ogg-test-nested.ogg">
-    <METADATA>
-      <title/>
-      <creator/>
-      <subject/>
-      <description/>
-      <publisher/>
-      <contributor/>
-      <date>2018</date>
-      <type>Sound</type>
-      <format>.ogg</format>
-      <identifier/>
-      <source/>
-      <language/>
-      <relation/>
-      <coverage/>
-      <rights/>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\xy">
+  <file path="test-files\xy\ogg-test-nested.ogg">
+    <metadata>
+      <set type="dc:title"/>
+      <set type="dc:creator"/>
+      <set type="dc:subject"/>
+      <set type="dc:description"/>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date">2018</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.ogg</set>
+      <set type="dc:identifier"/>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-file.cs">
-    <METADATA/>
-  </FILE>
-</DIR>
+<dir path="..\test-files">
+  <file path="test-files\test-file.cs">
+    <metadata/>
+  </file>
+</dir>

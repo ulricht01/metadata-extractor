@@ -49,7 +49,12 @@ class AudioExtractor(BaseExtractor):
                 "contributor": file.get("PERFORMER", [""])[0],
                 "date": file.get("DATE", [""])[0],
                 "language": file.get("LANGUAGE", [""])[0],
-                "rights": file.get("COPYRIGHT", [""])[0]
+                "rights": file.get("COPYRIGHT", [""])[0],
+                 "subject": file.get("GENRE", [""])[0],
+                "identifier": file.get("ISRC", [""])[0],
+                "relation": file.get("RELATED", [""])[0],   # custom
+                "source": file.get("SOURCE", [""])[0],
+                "coverage": file.get("LOCATION", [""])[0]   # custom nebo vlastní pole
             })
 
         elif extension == ".mp3":
@@ -70,5 +75,15 @@ class AudioExtractor(BaseExtractor):
                     dc_fields["language"] = str(value)
                 elif key.startswith("TCOP"):
                     dc_fields["rights"] = str(value)
+                elif key.startswith("TCON"):  # genre → subject
+                    dc_fields["subject"] = str(value)
+                elif key.startswith("UFID") or key.startswith("TSRC"):
+                    dc_fields["identifier"] = str(value)
+                elif key.startswith("WOAR"):  # official artist website
+                    dc_fields["source"] = str(value)
+                elif key.startswith("WXXX"):  # user-defined URL
+                    dc_fields["relation"] = str(value)
+                elif key.startswith("TOWN"):  # place of recording
+                    dc_fields["coverage"] = str(value)
 
         return dc_fields

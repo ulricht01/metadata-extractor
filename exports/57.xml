@@ -1,22 +1,30 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\57.xml">
-    <METADATA>
-      <title>Indiana University Chest X-ray Collection</title>
-      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
-      <subject>pulmonary diseases</subject>
-      <description>[None, 'XXXX-year-old female with history of pneumonia, followup study', 'The tracheostomy tube tip is 5 cm above the carina. There are prominent diffuse bilateral interstitial opacities, stable from prior radiographs. There is no focal airspace consolidation. No pleural effusion. No pneumothorax. Heart size is within normal limits. There are mild degenerative changes of the spine.', '1. No focal airspace consolidation. 2. Prominent bilateral interstitial opacities, stable from prior radiographs.']</description>
-      <publisher>Indiana University</publisher>
-      <contributor>Indiana University</contributor>
-      <date>2013-08-01</date>
-      <type>XR</type>
-      <format>.xml</format>
-      <identifier>CXR57</identifier>
-      <source/>
-      <language>eng</language>
-      <relation>CXR57_IM-2170-1001-0001</relation>
-      <coverage/>
-      <rights>open-access</rights>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\xray_reports">
+  <file path="test-files\health_data\xray_reports\57.xml">
+    <metadata>
+      <set type="dc:title">Indiana University Chest X-ray Collection</set>
+      <set type="dc:creator">
+        <add>Marc Kohli</add>
+        <add>Marc Rosenman</add>
+      </set>
+      <set type="dc:subject">pulmonary diseases</set>
+      <set type="dc:description">
+        <add>None</add>
+        <add>XXXX-year-old female with history of pneumonia, followup study</add>
+        <add>The tracheostomy tube tip is 5 cm above the carina. There are prominent diffuse bilateral interstitial opacities, stable from prior radiographs. There is no focal airspace consolidation. No pleural effusion. No pneumothorax. Heart size is within normal limits. There are mild degenerative changes of the spine.</add>
+        <add>1. No focal airspace consolidation. 2. Prominent bilateral interstitial opacities, stable from prior radiographs.</add>
+      </set>
+      <set type="dc:publisher">Indiana University</set>
+      <set type="dc:contributor">Indiana University</set>
+      <set type="dc:date">2013-08-01</set>
+      <set type="dc:type">XR</set>
+      <set type="dc:format">.xml</set>
+      <set type="dc:identifier">CXR57</set>
+      <set type="dc:source"/>
+      <set type="dc:language">eng</set>
+      <set type="dc:relation">CXR57_IM-2170-1001-0001</set>
+      <set type="dc:coverage"/>
+      <set type="dc:rights">open-access</set>
+    </metadata>
+  </file>
+</dir>

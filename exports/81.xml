@@ -1,22 +1,30 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\health_data\xray_reports\81.xml">
-    <METADATA>
-      <title>Indiana University Chest X-ray Collection</title>
-      <creator>['Marc Kohli', 'Marc Rosenman']</creator>
-      <subject>pulmonary diseases</subject>
-      <description>[None, 'XXXX and XXXX.', '2 images. Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. No convincing acute bony findings.', 'No acute cardiopulmonary abnormality identified.']</description>
-      <publisher>Indiana University</publisher>
-      <contributor>Indiana University</contributor>
-      <date>2013-08-01</date>
-      <type>XR</type>
-      <format>.xml</format>
-      <identifier>CXR81</identifier>
-      <source/>
-      <language>eng</language>
-      <relation>CXR81_IM-2343-2001</relation>
-      <coverage/>
-      <rights>open-access</rights>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\health_data\xray_reports">
+  <file path="test-files\health_data\xray_reports\81.xml">
+    <metadata>
+      <set type="dc:title">Indiana University Chest X-ray Collection</set>
+      <set type="dc:creator">
+        <add>Marc Kohli</add>
+        <add>Marc Rosenman</add>
+      </set>
+      <set type="dc:subject">pulmonary diseases</set>
+      <set type="dc:description">
+        <add>None</add>
+        <add>XXXX and XXXX.</add>
+        <add>2 images. Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. No convincing acute bony findings.</add>
+        <add>No acute cardiopulmonary abnormality identified.</add>
+      </set>
+      <set type="dc:publisher">Indiana University</set>
+      <set type="dc:contributor">Indiana University</set>
+      <set type="dc:date">2013-08-01</set>
+      <set type="dc:type">XR</set>
+      <set type="dc:format">.xml</set>
+      <set type="dc:identifier">CXR81</set>
+      <set type="dc:source"/>
+      <set type="dc:language">eng</set>
+      <set type="dc:relation">CXR81_IM-2343-2001</set>
+      <set type="dc:coverage"/>
+      <set type="dc:rights">open-access</set>
+    </metadata>
+  </file>
+</dir>

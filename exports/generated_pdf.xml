@@ -1,22 +1,22 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\xy\xz\generated_pdf.pdf">
-    <METADATA>
-      <title>The Transformative Power of Artificial Intelligence</title>
-      <creator/>
-      <subject/>
-      <description>WeasyPrint 65.1</description>
-      <publisher/>
-      <contributor/>
-      <date/>
-      <type/>
-      <format>.pdf</format>
-      <identifier/>
-      <source/>
-      <language/>
-      <relation/>
-      <coverage/>
-      <rights/>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files\xy\xz">
+  <file path="test-files\xy\xz\generated_pdf.pdf">
+    <metadata>
+      <set type="dc:title">The Transformative Power of Artificial Intelligence</set>
+      <set type="dc:creator"/>
+      <set type="dc:subject"/>
+      <set type="dc:description">WeasyPrint 65.1</set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date"/>
+      <set type="dc:type">Text</set>
+      <set type="dc:format">.pdf</set>
+      <set type="dc:identifier">generated_pdf.pdf_901902</set>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

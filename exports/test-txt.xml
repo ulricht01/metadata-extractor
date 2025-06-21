@@ -1,22 +1,22 @@
 <?xml version="1.0" ?>
-<DIR path="G:\Programování\sipky\metadata-extractor">
-  <FILE path="G:\Programování\sipky\metadata-extractor\test-files\test-txt.txt">
-    <METADATA>
-      <title>test-txt.txt</title>
-      <creator/>
-      <subject/>
-      <description/>
-      <publisher/>
-      <contributor/>
-      <date>27.05.2025 19:33:49</date>
-      <type/>
-      <format>.txt</format>
-      <identifier/>
-      <source/>
-      <language/>
-      <relation/>
-      <coverage/>
-      <rights/>
-    </METADATA>
-  </FILE>
-</DIR>
+<dir path="..\test-files">
+  <file path="test-files\test-txt.txt">
+    <metadata>
+      <set type="dc:title">test-txt.txt</set>
+      <set type="dc:creator"/>
+      <set type="dc:subject"/>
+      <set type="dc:description"/>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date">27.05.2025 19:33:49</set>
+      <set type="dc:type">Text</set>
+      <set type="dc:format">.txt</set>
+      <set type="dc:identifier">test-txt.txt_68</set>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

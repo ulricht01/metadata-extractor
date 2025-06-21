@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dir path="..\test-files\churchill">
+  <file path="test-files\churchill\1938-10-16_BBC_Winston_Churchill_We_Must_Arm.mp3">
+    <metadata>
+      <set type="dc:title">We Must Arm</set>
+      <set type="dc:creator">1938-10-16 BBC Winston Churchill</set>
+      <set type="dc:subject"/>
+      <set type="dc:description">KM99's WWII (THE BIG ONE)</set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date"/>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier"/>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>

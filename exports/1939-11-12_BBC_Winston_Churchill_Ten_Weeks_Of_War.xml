@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dir path="..\test-files\churchill">
+  <file path="test-files\churchill\1939-11-12_BBC_Winston_Churchill_Ten_Weeks_Of_War.mp3">
+    <metadata>
+      <set type="dc:title">Ten Weeks Of War</set>
+      <set type="dc:creator">1939-11-12 BBC Winston Churchill</set>
+      <set type="dc:subject"/>
+      <set type="dc:description">KM99's WWII (THE BIG ONE)</set>
+      <set type="dc:publisher"/>
+      <set type="dc:contributor"/>
+      <set type="dc:date"/>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier"/>
+      <set type="dc:source"/>
+      <set type="dc:language"/>
+      <set type="dc:relation"/>
+      <set type="dc:coverage"/>
+      <set type="dc:rights"/>
+    </metadata>
+  </file>
+</dir>
