@@ -9,9 +9,9 @@
       <set type="dc:publisher"/>
       <set type="dc:contributor">Tomáš Ulrich</set>
       <set type="dc:date">17.05.2025 21:19:00</set>
-      <set type="dc:type">Text</set>
+      <set type="dc:type"/>
       <set type="dc:format">.docx</set>
-      <set type="dc:identifier">word-test.docx_13521</set>
+      <set type="dc:identifier"/>
       <set type="dc:source"/>
       <set type="dc:language"/>
       <set type="dc:relation"/>

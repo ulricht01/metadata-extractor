@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <dir path="..\test-files">
-  <file path="test-files\test-odt.odt">
+  <file path="test-files\audacity-nahravka-bez.mp3">
     <metadata>
-      <set type="dc:title">Testovací ODT soubor</set>
-      <set type="dc:creator">Testovací autor</set>
+      <set type="dc:title"/>
+      <set type="dc:creator"/>
       <set type="dc:subject"/>
       <set type="dc:description"/>
       <set type="dc:publisher"/>
       <set type="dc:contributor"/>
       <set type="dc:date"/>
-      <set type="dc:type"/>
-      <set type="dc:format">.odt</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
       <set type="dc:identifier"/>
       <set type="dc:source"/>
       <set type="dc:language"/>

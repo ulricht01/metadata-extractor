@@ -9,9 +9,9 @@
       <set type="dc:publisher"/>
       <set type="dc:contributor">Tomáš Ulrich</set>
       <set type="dc:date">28.08.2007 12:06:36</set>
-      <set type="dc:type">Spreadsheet</set>
+      <set type="dc:type"/>
       <set type="dc:format">.xlsx</set>
-      <set type="dc:identifier">excel-test.xlsx_95251</set>
+      <set type="dc:identifier"/>
       <set type="dc:source"/>
       <set type="dc:language"/>
       <set type="dc:relation"/>

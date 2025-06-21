@@ -3075,6 +3075,256 @@
       <set type="dc:rights" />
     </metadata>
   </file>
+</dir><dir path="..\test-files"><file path="test-files\audacity-nahravka-bez.mp3">
+    <metadata>
+      <set type="dc:title" />
+      <set type="dc:creator" />
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date" />
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\audacity-nahravka.mp3">
+    <metadata>
+      <set type="dc:title">Test</set>
+      <set type="dc:creator">Tomáš Ulrich</set>
+      <set type="dc:subject">Žádný</set>
+      <set type="dc:description">Žádný</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2025</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\excel-test.xlsx">
+    <metadata>
+      <set type="dc:title" />
+      <set type="dc:creator">Mgr. Pavel Novák</set>
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor">Tomáš Ulrich</set>
+      <set type="dc:date">28.08.2007 12:06:36</set>
+      <set type="dc:type" />
+      <set type="dc:format">.xlsx</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\mp3-test.mp3">
+    <metadata>
+      <set type="dc:title" />
+      <set type="dc:creator" />
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2018</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\ogg-test.ogg">
+    <metadata>
+      <set type="dc:title" />
+      <set type="dc:creator" />
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2018</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.ogg</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\pdf-test.pdf">
+    <metadata>
+      <set type="dc:title">Testovací soubor WORD</set>
+      <set type="dc:creator">Tomáš Ulrich</set>
+      <set type="dc:subject" />
+      <set type="dc:description">Microsoft® Word for Microsoft 365</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor">Microsoft® Word for Microsoft 365</set>
+      <set type="dc:date">17.05.2025 23:21:13</set>
+      <set type="dc:type" />
+      <set type="dc:format">.pdf</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\raw-foto-test.CR3">
+    <metadata>
+      <set type="dc:title">raw-foto-test.CR3</set>
+      <set type="dc:creator" />
+      <set type="dc:subject" />
+      <set type="dc:description">50.0 mm, 1/400s, ISO 400, f/1.8</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2025:05:17 17:40:01+02:00</set>
+      <set type="dc:type">Image</set>
+      <set type="dc:format">CR3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source">test-files/raw-foto-test.CR3</set>
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\test-file.cs">
+    <metadata />
+  </file>
+<file path="test-files\test-odt.odt">
+    <metadata>
+      <set type="dc:title">Testovací ODT soubor</set>
+      <set type="dc:creator">Testovací autor</set>
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date" />
+      <set type="dc:type" />
+      <set type="dc:format">.odt</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\test-rtf.rtf">
+    <metadata>
+      <set type="dc:title">Ukázkový dokument</set>
+      <set type="dc:creator">Jan Novák</set>
+      <set type="dc:subject" />
+      <set type="dc:description">Toto je ukázkový RTF dokument s metadaty</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">27.05.2025 14:30</set>
+      <set type="dc:type" />
+      <set type="dc:format">.rtf</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\test-txt.txt">
+    <metadata>
+      <set type="dc:title">test-txt.txt</set>
+      <set type="dc:creator" />
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">27.05.2025 19:33:49</set>
+      <set type="dc:type" />
+      <set type="dc:format">.txt</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\tone-test.mp3">
+    <metadata>
+      <set type="dc:title">Pure Tone Test</set>
+      <set type="dc:creator">Sample-Files.com</set>
+      <set type="dc:subject">Test Tone</set>
+      <set type="dc:description">Sample Audio Files</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2025</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\voice-sample.mp3">
+    <metadata>
+      <set type="dc:title">Sample Voice Recording for Developer Testing</set>
+      <set type="dc:creator">Sample-Files.com</set>
+      <set type="dc:subject">Speech</set>
+      <set type="dc:description">Sample Audio Files</set>
+      <set type="dc:publisher" />
+      <set type="dc:contributor" />
+      <set type="dc:date">2025</set>
+      <set type="dc:type">Sound</set>
+      <set type="dc:format">.mp3</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
+<file path="test-files\word-test.docx">
+    <metadata>
+      <set type="dc:title">Testovací soubor WORD</set>
+      <set type="dc:creator">Tomáš Ulrich</set>
+      <set type="dc:subject" />
+      <set type="dc:description" />
+      <set type="dc:publisher" />
+      <set type="dc:contributor">Tomáš Ulrich</set>
+      <set type="dc:date">17.05.2025 21:19:00</set>
+      <set type="dc:type" />
+      <set type="dc:format">.docx</set>
+      <set type="dc:identifier" />
+      <set type="dc:source" />
+      <set type="dc:language" />
+      <set type="dc:relation" />
+      <set type="dc:coverage" />
+      <set type="dc:rights" />
+    </metadata>
+  </file>
 </dir><dir path="..\test-files\health_data\xray_pngs"><file path="test-files\health_data\xray_pngs\CXR10_IM-0002-1001.png">
     <metadata>
       <set type="dc:title" />
@@ -3455,218 +3705,6 @@
       <set type="dc:rights" />
     </metadata>
   </file>
-</dir><dir path="..\test-files"><file path="test-files\excel-test.xlsx">
-    <metadata>
-      <set type="dc:title" />
-      <set type="dc:creator">Mgr. Pavel Novák</set>
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor">Tomáš Ulrich</set>
-      <set type="dc:date">28.08.2007 12:06:36</set>
-      <set type="dc:type">Spreadsheet</set>
-      <set type="dc:format">.xlsx</set>
-      <set type="dc:identifier">excel-test.xlsx_95251</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\mp3-test.mp3">
-    <metadata>
-      <set type="dc:title" />
-      <set type="dc:creator" />
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">2018</set>
-      <set type="dc:type">Sound</set>
-      <set type="dc:format">.mp3</set>
-      <set type="dc:identifier" />
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\ogg-test.ogg">
-    <metadata>
-      <set type="dc:title" />
-      <set type="dc:creator" />
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">2018</set>
-      <set type="dc:type">Sound</set>
-      <set type="dc:format">.ogg</set>
-      <set type="dc:identifier" />
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\pdf-test.pdf">
-    <metadata>
-      <set type="dc:title">Testovací soubor WORD</set>
-      <set type="dc:creator">Tomáš Ulrich</set>
-      <set type="dc:subject" />
-      <set type="dc:description">Microsoft® Word for Microsoft 365</set>
-      <set type="dc:publisher" />
-      <set type="dc:contributor">Microsoft® Word for Microsoft 365</set>
-      <set type="dc:date">17.05.2025 23:21:13</set>
-      <set type="dc:type">Text</set>
-      <set type="dc:format">.pdf</set>
-      <set type="dc:identifier">pdf-test.pdf_16612</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\raw-foto-test.CR3">
-    <metadata>
-      <set type="dc:title">raw-foto-test.CR3</set>
-      <set type="dc:creator" />
-      <set type="dc:subject" />
-      <set type="dc:description">50.0 mm, 1/400s, ISO 400, f/1.8</set>
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">2025:05:17 17:40:01+02:00</set>
-      <set type="dc:type">Image</set>
-      <set type="dc:format">CR3</set>
-      <set type="dc:identifier" />
-      <set type="dc:source">test-files/raw-foto-test.CR3</set>
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\test-file.cs">
-    <metadata />
-  </file>
-<file path="test-files\test-odt.odt">
-    <metadata>
-      <set type="dc:title">Testovací ODT soubor</set>
-      <set type="dc:creator">Testovací autor</set>
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date" />
-      <set type="dc:type">Text</set>
-      <set type="dc:format">.odt</set>
-      <set type="dc:identifier">test-odt.odt_1589</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\test-rtf.rtf">
-    <metadata>
-      <set type="dc:title">Ukázkový dokument</set>
-      <set type="dc:creator">Jan Novák</set>
-      <set type="dc:subject" />
-      <set type="dc:description">Toto je ukázkový RTF dokument s metadaty</set>
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">27.05.2025 14:30</set>
-      <set type="dc:type">Text</set>
-      <set type="dc:format">.rtf</set>
-      <set type="dc:identifier">test-rtf.rtf_316</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\test-txt.txt">
-    <metadata>
-      <set type="dc:title">test-txt.txt</set>
-      <set type="dc:creator" />
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">27.05.2025 19:33:49</set>
-      <set type="dc:type">Text</set>
-      <set type="dc:format">.txt</set>
-      <set type="dc:identifier">test-txt.txt_68</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\tone-test.mp3">
-    <metadata>
-      <set type="dc:title">Pure Tone Test</set>
-      <set type="dc:creator">Sample-Files.com</set>
-      <set type="dc:subject">Test Tone</set>
-      <set type="dc:description">Sample Audio Files</set>
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">2025</set>
-      <set type="dc:type">Sound</set>
-      <set type="dc:format">.mp3</set>
-      <set type="dc:identifier" />
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\voice-sample.mp3">
-    <metadata>
-      <set type="dc:title">Sample Voice Recording for Developer Testing</set>
-      <set type="dc:creator">Sample-Files.com</set>
-      <set type="dc:subject">Speech</set>
-      <set type="dc:description">Sample Audio Files</set>
-      <set type="dc:publisher" />
-      <set type="dc:contributor" />
-      <set type="dc:date">2025</set>
-      <set type="dc:type">Sound</set>
-      <set type="dc:format">.mp3</set>
-      <set type="dc:identifier" />
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
-<file path="test-files\word-test.docx">
-    <metadata>
-      <set type="dc:title">Testovací soubor WORD</set>
-      <set type="dc:creator">Tomáš Ulrich</set>
-      <set type="dc:subject" />
-      <set type="dc:description" />
-      <set type="dc:publisher" />
-      <set type="dc:contributor">Tomáš Ulrich</set>
-      <set type="dc:date">17.05.2025 21:19:00</set>
-      <set type="dc:type">Text</set>
-      <set type="dc:format">.docx</set>
-      <set type="dc:identifier">word-test.docx_13521</set>
-      <set type="dc:source" />
-      <set type="dc:language" />
-      <set type="dc:relation" />
-      <set type="dc:coverage" />
-      <set type="dc:rights" />
-    </metadata>
-  </file>
 </dir><dir path="..\test-files\xy\xz"><file path="test-files\xy\xz\generated_pdf.pdf">
     <metadata>
       <set type="dc:title">The Transformative Power of Artificial Intelligence</set>
@@ -3676,9 +3714,9 @@
       <set type="dc:publisher" />
       <set type="dc:contributor" />
       <set type="dc:date" />
-      <set type="dc:type">Text</set>
+      <set type="dc:type" />
       <set type="dc:format">.pdf</set>
-      <set type="dc:identifier">generated_pdf.pdf_901902</set>
+      <set type="dc:identifier" />
       <set type="dc:source" />
       <set type="dc:language" />
       <set type="dc:relation" />
@@ -3695,9 +3733,9 @@
       <set type="dc:publisher" />
       <set type="dc:contributor" />
       <set type="dc:date">01.01.2022 05:00:00</set>
-      <set type="dc:type">Text</set>
+      <set type="dc:type" />
       <set type="dc:format">.docx</set>
-      <set type="dc:identifier">generated_word.docx_604355</set>
+      <set type="dc:identifier" />
       <set type="dc:source" />
       <set type="dc:language">en</set>
       <set type="dc:relation" />

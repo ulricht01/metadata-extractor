@@ -9,9 +9,9 @@
       <set type="dc:publisher"/>
       <set type="dc:contributor"/>
       <set type="dc:date">01.01.2022 05:00:00</set>
-      <set type="dc:type">Text</set>
+      <set type="dc:type"/>
       <set type="dc:format">.docx</set>
-      <set type="dc:identifier">generated_word.docx_604355</set>
+      <set type="dc:identifier"/>
       <set type="dc:source"/>
       <set type="dc:language">en</set>
       <set type="dc:relation"/>

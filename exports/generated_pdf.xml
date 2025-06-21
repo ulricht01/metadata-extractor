@@ -9,9 +9,9 @@
       <set type="dc:publisher"/>
       <set type="dc:contributor"/>
       <set type="dc:date"/>
-      <set type="dc:type">Text</set>
+      <set type="dc:type"/>
       <set type="dc:format">.pdf</set>
-      <set type="dc:identifier">generated_pdf.pdf_901902</set>
+      <set type="dc:identifier"/>
       <set type="dc:source"/>
       <set type="dc:language"/>
       <set type="dc:relation"/>
