@@ -43,3 +43,7 @@ metadata-extractor/
 ├── requirements.txt         # Seznam Python závislostí
 └── todo                     # Textový soubor s poznámkami nebo úkoly k implementaci
 ```
+## Pro tvorbu dokumentace je využit balíček pdocs
+```
+python -m pdoc --output-dir docs app dashboard plugins
+```
