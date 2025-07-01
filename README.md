@@ -23,6 +23,7 @@ Tento repozitář obsahuje jednoduchý nástroj pro extrakci metadat z datových
 
 ## Struktura
 metadata-extractor/
+
 ├── app/                     # Hlavní aplikační logika
 │   └── app.py
 ├── dashboard/               # Export adresář pro dashboard
