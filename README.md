@@ -29,6 +29,21 @@ metadata-extractor/
 ├── dashboard/               # Export adresář pro dashboard
 │   └── dashboard.py
 ├── exports/                 # Složka pro výstupní metadata v podobě XML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ├── nested_exports/          # Složka pro export sloučených XML výstupů
 ├── plugins/                 # Pluginy pro extrakci z různých typů souborů
 │   ├── audio.py             # Extrakce metadat z audio souborů
