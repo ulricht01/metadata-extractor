@@ -45,5 +45,5 @@ metadata-extractor/
 ```
 ## Pro tvorbu dokumentace je využit balíček pdocs
 ```
-python -m pdoc --output-dir docs app dashboard plugins
+python -m pdoc --output-dir docs app plugins
 ```
