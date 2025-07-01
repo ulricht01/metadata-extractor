@@ -5,15 +5,40 @@ from plugins.base_extractor import BaseExtractor
 
 
 class FotoExtractor(BaseExtractor):
+    """
+    Extraktor metadat pro obrazové soubory (.CR3, .png) využívající exiftool.
+
+    Metadata jsou mapována na pole Dublin Core.
+    """
 
     def __init__(self):
+        """
+        Inicializuje extraktor s podporou přípon .CR3 a .png.
+        """
         self._supported_extensions = [".CR3", ".png"]
 
     @property
     def supported_extensions(self):
+        """
+        Vrací seznam podporovaných přípon souborů.
+
+        Returns:
+            list[str]: Seznam přípon, které extraktor podporuje.
+        """
         return self._supported_extensions
 
     def extract_meta(self, file_path):
+        """
+        Extrahuje metadata ze zadaného obrazového souboru pomocí exiftool.
+
+        Args:
+            file_path (str): Cesta k souboru, ze kterého se extrahují metadata.
+
+        Returns:
+            dict: Slovník s klíči odpovídajícími Dublin Core metadatům.
+                  Pokud je přípona souboru nepodporovaná nebo nastane chyba,
+                  vrací slovník s prázdnými hodnotami.
+        """
         extension = os.path.splitext(file_path)[1].upper()
 
         # Inicializace DC slovníku s prázdnými hodnotami
@@ -78,5 +103,3 @@ class FotoExtractor(BaseExtractor):
                 print("Obecná chyba:", e)
         return dc_fields
 
-
-i = FotoExtractor()

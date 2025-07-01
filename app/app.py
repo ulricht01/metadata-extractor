@@ -12,6 +12,7 @@ import xml.etree.ElementTree as ET
 import io
 import json
 import webbrowser
+import pdoc
 
 from plugins.base_extractor import BaseExtractor
 
@@ -21,10 +22,24 @@ dashboard_data = {
     }
 
 def prepare_dashboard_dict():
+    """
+    Inicializuje slovník `dashboard_data` s klíči odpovídajícími dostupným extraktorům,
+    nastaví jejich počáteční hodnoty na 0.
+    """
     for i in available_extractors:
         dashboard_data[i] = 0
 
 def report_dashboard(dashboard_data, output_path):
+    """
+    Vygeneruje HTML report dashboardu na základě statistiky o zpracovaných souborech.
+
+    Args:
+        dashboard_data (dict): Slovník s počtem zpracovaných souborů podle extraktoru.
+        output_path (str): Cesta, kam se uloží výsledný HTML soubor reportu.
+
+    Výstup:
+        Vytvoří a uloží HTML soubor reportu a otevře ho v prohlížeči.
+    """
     template_path = os.path.join(os.path.dirname(__file__), "..", "dashboard", "dashboard.html")
     with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
@@ -59,6 +74,10 @@ def report_dashboard(dashboard_data, output_path):
     
 
 def load_plugins():
+    """
+    Načte všechny pluginy z adresáře `plugins`, registruje je podle podporovaných přípon
+    do slovníku `available_extractors` a připraví dashboard.
+    """
     for loader, module_name, is_pkg in pkgutil.iter_modules(plugins.__path__):
         module = importlib.import_module(f"plugins.{module_name}")
         for attr_name in dir(module):
@@ -73,6 +92,15 @@ def load_plugins():
                         
 
 def extract_metadata(file_path):
+    """
+    Extrahuje metadata ze souboru podle jeho přípony pomocí odpovídajícího pluginu.
+
+    Args:
+        file_path (str): Cesta k souboru, ze kterého se extrahují metadata.
+
+    Returns:
+        dict: Extrahovaná metadata (prázdný slovník v případě chyby nebo nepodporované přípony).
+    """
     _, ext = os.path.splitext(file_path)
     
     if ext not in available_extractors:
@@ -87,6 +115,14 @@ def extract_metadata(file_path):
         return {}
     
 def convert_to_xml(filename, metadata, export_path):
+    """
+    Převádí metadata do XML formátu a uloží je do výstupního adresáře.
+
+    Args:
+        filename (str): Původní název souboru, ze kterého metadata pocházejí.
+        metadata (dict): Slovník s extrahovanými metadaty.
+        export_path (str): Cesta k adresáři, kam se uloží výsledný XML soubor.
+    """
     xml_bytes = dicttoxml({}, custom_root="file", attr_type=False)
     data_element = ET.fromstring(xml_bytes.decode("utf-8"))
     
@@ -125,6 +161,13 @@ def convert_to_xml(filename, metadata, export_path):
     print(f"XML bylo uloženo do souboru: {output_file}")
     
 def join_xml_files(export_path, output_file):
+    """
+    Spojí všechny XML soubory zadaného adresáře do jednoho souboru.
+
+    Args:
+        export_path (str): Cesta k adresáři obsahujícímu XML soubory ke sloučení.
+        output_file (str): Cesta a jméno výsledného sloučeného XML souboru.
+    """
     dir_map = {}
 
     for root, _, files in os.walk(export_path):

@@ -5,15 +5,38 @@ import pydicom
 #from base_extractor import BaseExtractor
  
 class HealthExtractor(BaseExtractor):
+    """
+    Extraktor metadat ze zdravotnických souborů XML a DICOM (.dcm).
+    Metadata mapuje do formátu Dublin Core.
+    """
     
     def __init__(self):
+        """
+        Inicializace HealthExtractoru s podporou přípon .xml a .dcm.
+        """
         self._supported_extensions = [".xml", ".dcm"]
         
     @property
     def supported_extensions(self):
+        """
+        Vrací seznam podporovaných přípon souborů.
+        
+        Returns:
+            list[str]: Seznam přípon (např. [".xml", ".dcm"])
+        """
         return self._supported_extensions
         
     def extract_meta(self, file_path):
+        """
+        Extrahuje metadata ze souboru zadaného cestou `file_path` podle jeho přípony.
+        Podporovány jsou formáty XML a DICOM (.dcm). Metadata jsou mapována do slovníku podle formátu Dublin Core.
+
+        Args:
+            file_path (str): Cesta k souboru, ze kterého se mají metadata extrahovat.
+
+        Returns:
+            dict: Slovník s klíči odpovídajícími polím Dublin Core a extrahovanými hodnotami.
+        """
         extension = os.path.splitext(file_path)[1].lower()
         
         dc_fields = {
@@ -69,7 +92,8 @@ class HealthExtractor(BaseExtractor):
             author_list, abstract_list = root.find(".//AuthorList"), root.find(".//Abstract")
             
             for author in author_list.findall("Author"):
-                full_name = f"{author.findtext("ForeName", default="")} {author.findtext("LastName", default="")}"
+                full_name = f"{author.findtext('ForeName', default='')} {author.findtext('LastName', default='')}"
+
                 dc_fields["creator"].append(full_name)
                 
             for abstract in abstract_list.findall("AbstractText"):

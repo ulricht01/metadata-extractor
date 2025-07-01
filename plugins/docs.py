@@ -9,17 +9,54 @@ import openpyxl
 from plugins.base_extractor import BaseExtractor
 
 class DocsExtractor(BaseExtractor):
+    """
+    Extrahuje metadata z dokumentových formátů jako DOCX, ODT, PDF, RTF, TXT, XLSX a jejich variant.
+
+    Podporované přípony: 
+    .docx, .odt, .pdf, .rtf, .txt, .xlsx, .xlsm, .xltx, .xltm
+
+    Metody:
+        - supported_extensions: vrací seznam podporovaných přípon.
+        - extract_meta: extrahuje metadata ze souboru a vrací je jako slovník Dublin Core polí.
+    """
     
     def __init__(self):
+        """
+        Inicializuje extraktor a nastaví podporované přípony dokumentových souborů.
+        """
         self._supported_extensions = [".docx", ".odt", ".pdf", ".rtf", ".txt", ".xlsx", ".xlsm", ".xltx", ".xltm"]
         
     @property
     def supported_extensions(self):
+        """
+        Vrací seznam podporovaných přípon souborů.
+
+        Returns:
+            list[str]: Seznam přípon, které extraktor podporuje.
+        """
         return self._supported_extensions
     
     def extract_meta(self, file_path):
-        
+        """
+        Extrahuje metadata z dokumentového souboru podle jeho typu.
+
+        Args:
+            file_path (str): Cesta k dokumentovému souboru.
+
+        Returns:
+            dict: Slovník s metadaty dle Dublin Core polí, naplněný daty extrahovanými ze souboru.
+                  Pokud není soubor podporován nebo nelze metadata získat, vrací výchozí prázdná pole.
+        """
         def format_date(value):
+            """
+            Pomocná funkce pro formátování data do řetězce ve formátu 'DD.MM.YYYY HH:MM:SS'.
+
+            Args:
+                value (datetime.datetime|int|float): Datum jako datetime objekt nebo timestamp.
+
+            Returns:
+                str: Naformátovaný datumový řetězec, nebo prázdný řetězec pokud nelze konvertovat.
+            """
             if isinstance(value, datetime.datetime):
                 return value.strftime("%d.%m.%Y %H:%M:%S")
             elif isinstance(value, (int, float)):

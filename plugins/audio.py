@@ -3,15 +3,42 @@ import os
 from plugins.base_extractor import BaseExtractor
 
 class AudioExtractor(BaseExtractor):
-    
+    """
+    Extraktor metadat pro audio soubory (mp3, ogg).
+
+    Podporované přípony: .mp3, .ogg
+
+    Metody:
+        - supported_extensions: vrací seznam podporovaných přípon.
+        - extract_meta: extrahuje metadata ze souboru a vrací je jako slovník.
+    """
     def __init__(self):
+        """
+        Inicializuje extraktor a nastaví podporované přípony.
+        """
         self._supported_extensions = [".mp3", ".ogg"]
         
     @property
     def supported_extensions(self):
+        """
+        Vrací seznam podporovaných přípon souborů.
+
+        Returns:
+            list[str]: Seznam přípon, které extraktor podporuje.
+        """
         return self._supported_extensions
         
     def extract_meta(self, file_path):
+        """
+        Extrahuje metadata z audio souboru.
+
+        Args:
+            file_path (str): Cesta k audio souboru.
+
+        Returns:
+            dict: Slovník s metadaty dle Dublin Core polí, naplněný daty extrahovanými z audio souboru.
+                  Pokud soubor není podporován nebo nelze načíst metadata, vrací výchozí prázdná pole.
+        """
         extension = os.path.splitext(file_path)[1].lower()
         
         dc_fields = {

@@ -1,6 +1,8 @@
-docx==0.2.4
+dicttoxml==1.7.16
 mutagen==1.47.0
 odfpy==1.4.1
 openpyxl==3.1.5
+pdoc==15.0.4
+pydicom==3.0.1
 PyPDF2==3.0.1
 python_docx==1.1.2
