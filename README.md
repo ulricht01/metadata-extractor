@@ -27,7 +27,7 @@ metadata-extractor/
 ├── app/                     # Hlavní aplikační logika
 │   └── app.py
 ├── dashboard/               # Export adresář pro dashboard
-│   └── dashboard.py
+├── docs/                    # Dokumentace    
 ├── exports/                 # Složka pro výstupní metadata v podobě XML
 ├── nested_exports/          # Složka pro export sloučených XML výstupů
 ├── plugins/                 # Pluginy pro extrakci z různých typů souborů
@@ -40,8 +40,7 @@ metadata-extractor/
 ├── tools/                   # Pomocné nástroje
 │   └── exiftool/            # Integrace nástroje ExifTool
 ├── README.md                # Tento popis projektu
-├── requirements.txt         # Seznam Python závislostí
-└── todo                     # Textový soubor s poznámkami nebo úkoly k implementaci
+└── requirements.txt         # Seznam Python závislostí
 ```
 ## Pro tvorbu dokumentace je využit balíček pdocs
 ```
